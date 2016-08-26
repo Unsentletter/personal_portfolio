@@ -7,6 +7,16 @@ html {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   overflow-x: hidden;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+ }
+ body {
+   overflow-x: hidden;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
  }
  #header_text {
    position: absolute;
@@ -32,14 +42,17 @@ html {
        background-image: url(http://polygonblog.com.www32.zoner-asiakas.fi/wp-content/uploads/2010/05/underwater.jpg);
 
        /* Set a specific height */
-       min-height: 700px;
+       min-height: 100vh;
+       min-width: 100vw;
 
        /* Create the parallax scrolling effect */
        background-attachment: fixed;
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
+       overflow-y: auto;
    }
+
 .aboutme {
   height: 100vh;
   width: 100%;
@@ -52,4 +65,7 @@ html {
   text-align: center;
   font-family: bree-serif;
   font-style: "bold";
+}
+.portfolio{
+  width: 100vw;
 }
