@@ -1,0 +1,1085 @@
+Started GET "/" for ::1 at 2016-08-24 10:25:01 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (11.8ms)
+Completed 200 OK in 61ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-08-24 10:25:09 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (124.5ms)
+Started GET "/" for ::1 at 2016-08-24 10:25:13 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 10:29:09 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 43ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 10:33:24 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 1965ms (Views: 1934.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 10:34:30 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 139ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 10:41:27 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 176ms (Views: 173.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 10:41:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 10:43:50 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-08-24 10:46:41 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-08-24 11:00:02 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 960ms (Views: 906.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:00:08 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views/pages/home.html.erb:43: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/pages/home.html.erb:43: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+Started GET "/pages/home" for ::1 at 2016-08-24 11:00:16 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:02:47 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3842ms (Views: 3826.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:08:54 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 216ms (Views: 204.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:11:39 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-08-24 11:11:45 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:13:38 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+  Rendered partials/_nav.html.erb (0.1ms)
+Completed 200 OK in 214ms (Views: 211.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-08-24 11:14:01 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-08-24 11:18:45 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 181ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:18:52 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:20:03 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.6ms)
+Completed 200 OK in 2560ms (Views: 2557.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2016-08-24 11:20:45 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 301ms (Views: 297.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 11:32:51 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 335ms (Views: 328.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 11:42:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 2855ms (Views: 2842.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 11:42:48 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2441ms (Views: 2439.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 11:43:30 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2534ms (Views: 2526.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 11:44:23 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2833ms (Views: 2830.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 11:46:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 212ms (Views: 205.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:44:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (333.5ms)
+Completed 200 OK in 1810ms (Views: 1576.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:46:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 378ms (Views: 361.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:47:23 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 271ms (Views: 267.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:47:24 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 154ms (Views: 151.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:47:29 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 139ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:47:30 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:47:43 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:48:42 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 191ms (Views: 188.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:50:03 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.9ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 300ms (Views: 293.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 14:50:22 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:50:33 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:51:04 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:51:22 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 84ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:51:48 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_footer.html.erb (1.1ms)
+Completed 200 OK in 187ms (Views: 183.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:52:22 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:52:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:55:18 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 211ms (Views: 202.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:56:00 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 248ms (Views: 244.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 14:56:08 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:09:21 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (10.5ms)
+  Rendered partials/_footer.html.erb (0.8ms)
+Completed 200 OK in 356ms (Views: 345.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:09:44 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 189ms (Views: 184.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:09:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 72ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:10:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 77ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:10:28 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 78ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:10:37 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:11:19 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:11:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:12:40 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:19:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 190ms (Views: 170.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:33:30 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.3ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 251ms (Views: 240.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 15:33:44 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 161ms (Views: 159.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 16:10:26 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 267ms (Views: 260.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 22:06:23 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (39.1ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 5539ms (Views: 5420.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 22:06:51 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 2240ms (Views: 2236.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-24 22:07:04 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 2418ms (Views: 2415.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-25 09:43:36 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 835ms (Views: 798.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-25 09:52:36 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 125ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-25 09:53:10 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-25 09:57:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 163ms (Views: 160.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-25 09:57:45 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20160825013022)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160825013022"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2016-08-25 01:37:19 UTC], ["updated_at", 2016-08-25 01:37:19 UTC]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/users/edit" for ::1 at 2016-08-25 11:57:53 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-25 11:57:54 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (1.6ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (60.3ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 3415ms (Views: 3386.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-08-25 11:58:31 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 260ms (Views: 227.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 11:58:47 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.4ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 235ms (Views: 204.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 11:59:43 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (0.7ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 212ms (Views: 209.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 12:00:12 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (0.9ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 12:00:21 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (0.5ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 12:00:31 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (0.5ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 89ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 12:01:07 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (7.6ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 253ms (Views: 247.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-25 12:01:10 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (2.0ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (13.8ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 113ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-25 12:01:33 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (2.1ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (11.3ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 147ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 12:01:38 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (2.8ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-08-25 12:01:41 +1000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/registrations/new.html.erb within layouts/application (8.9ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 99ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-25 12:01:43 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (3.0ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (8.9ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 108ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddOmniauthToUsers (20160825020623)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (12.4ms)[0m  [1m[35mALTER TABLE "users" ADD "provider" varchar[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "uid" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160825020623"]]
+  [1m[35m (18.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/users/sign_in" for ::1 at 2016-08-25 13:03:38 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (1.8ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (524.9ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 1254ms (Views: 1205.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-08-25 13:03:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 13:04:44 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 207ms (Views: 203.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-25 13:04:48 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (10.9ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 147ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 13:07:01 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (3.1ms)
+  Rendered partials/_footer.html.erb (1.0ms)
+Completed 200 OK in 553ms (Views: 546.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 13:20:57 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (26.4ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 698ms (Views: 672.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:21:00 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:21:02 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:24:42 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:24:43 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:26:14 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:26:15 +1000
+Started GET "/new/login" for ::1 at 2016-08-25 13:27:32 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (24.3ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 777ms (Views: 743.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:27:36 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:27:37 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:28:25 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:28:26 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:30:38 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:30:40 +1000
+Started GET "/new/login" for ::1 at 2016-08-25 13:32:50 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (13.3ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 849ms (Views: 816.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:32:54 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:32:56 +1000
+Started GET "/new/login" for ::1 at 2016-08-25 13:34:05 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (35.3ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 704ms (Views: 682.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:34:08 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:34:09 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:34:14 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:34:15 +1000
+Started GET "/new/login" for ::1 at 2016-08-25 13:34:50 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (8.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (13.2ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 633ms (Views: 612.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:34:53 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 13:34:54 +1000
+Started GET "/new/login?code=AQAc13itjuF1c2uwsXoxeTdNCVLIB_Sd-WBm1MJpvEvVqoUEzzogONfduz99f5xyDxa6ShQEVi4iZqnRt1D0oP7B9CkFaBrWoMqrNg9jbrb7MOJj-TF7eH9s0-EEiDyCDS79Ry80cqfTinN8qfZexQ1RjAsYFn2xg1D8w61QmVN-5darjCewsRpPnpE4iN3YzrJ9IKGrdRwCmIaaXwtujGhxinjseDiR6Qm-zc2K4YOk6E62t4WGQA272E-vQtjDu3UjmYiopUMFW_aU8SMR0BLwZEeo_kwF-U0P6LB9e8cony4_mzs1E-U1wMsKClyOCb0&state=28f92dd26ddc4f11e549f472a54c55685eaa18bd24d3705c" for ::1 at 2016-08-25 13:35:02 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQAc13itjuF1c2uwsXoxeTdNCVLIB_Sd-WBm1MJpvEvVqoUEzzogONfduz99f5xyDxa6ShQEVi4iZqnRt1D0oP7B9CkFaBrWoMqrNg9jbrb7MOJj-TF7eH9s0-EEiDyCDS79Ry80cqfTinN8qfZexQ1RjAsYFn2xg1D8w61QmVN-5darjCewsRpPnpE4iN3YzrJ9IKGrdRwCmIaaXwtujGhxinjseDiR6Qm-zc2K4YOk6E62t4WGQA272E-vQtjDu3UjmYiopUMFW_aU8SMR0BLwZEeo_kwF-U0P6LB9e8cony4_mzs1E-U1wMsKClyOCb0", "state"=>"28f92dd26ddc4f11e549f472a54c55685eaa18bd24d3705c"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (3.6ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 106ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 14:03:37 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (25.4ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 1321ms (Views: 1298.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 14:03:41 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 14:03:44 +1000
+Started GET "/new/login?code=AQBJSEoF2fadfcE8AfGb9NzCB2VlzbRuFyixQSdp0KGien1K4UnM6XNdBXdbURsJZkxXJfeqG4W0tAmhLXQJzpSCc1Zl9s9EBJuaTrRNmRUjx99C0olr4XPD-yS4qhLbSulecxbtoH5gsDm9I2Fl0PI6474T54IsEYonl3oiD_Szhb5Nha4SnC4NHRLzONlScIwJUwOTKvV_ZCRpB9kPvX4x0WpNmjMM4doUFMcWxs1joVkF466Zi6DT1XBBEcT7kk4WBaGcfqIJ_Lzjy7aYgtL80CAAh3q6e2ueIZHkNtMr17QHeatZ4nejmmW7-QNiiFc&state=8960277ee8eba2baba02f6dcdd2610a256af476a464f8c5a" for ::1 at 2016-08-25 14:03:45 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQBJSEoF2fadfcE8AfGb9NzCB2VlzbRuFyixQSdp0KGien1K4UnM6XNdBXdbURsJZkxXJfeqG4W0tAmhLXQJzpSCc1Zl9s9EBJuaTrRNmRUjx99C0olr4XPD-yS4qhLbSulecxbtoH5gsDm9I2Fl0PI6474T54IsEYonl3oiD_Szhb5Nha4SnC4NHRLzONlScIwJUwOTKvV_ZCRpB9kPvX4x0WpNmjMM4doUFMcWxs1joVkF466Zi6DT1XBBEcT7kk4WBaGcfqIJ_Lzjy7aYgtL80CAAh3q6e2ueIZHkNtMr17QHeatZ4nejmmW7-QNiiFc", "state"=>"8960277ee8eba2baba02f6dcdd2610a256af476a464f8c5a"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.5ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 14:03:54 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 14:03:54 +1000
+Started GET "/new/login?code=AQBiMPQQ59awkgWNdwgRB3TgQco-hRDPGMd8r0Pf5xUaOnSu-8hsGe6PYvMQrY68EnBaqC9OTnXhpTtD0KxSk-8gOmu_s4IHeZ4YcdbleXOjgjIJyecMNqoN6lWq6U53RiW3YT89uUuKS1riGw4keNyH8N4aapjK4pW7QQX2d7wGlKjfp_LqSsw_ztk5EAsxm4i4bAvChoB0xENgjjAiplf3vBK3rX7rc-gxo25UeoR95D9mEW0IF80eXi9GrSxFKaEv8I4DZorGq51AP-y7gGWMEzr4Z2VpFI2otBavJwEwDeSjxAfN0E0ISxrIwjWChxc&state=c4a8d0913be66817743ca9725809c32553b6522d0eeebd71" for ::1 at 2016-08-25 14:03:55 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQBiMPQQ59awkgWNdwgRB3TgQco-hRDPGMd8r0Pf5xUaOnSu-8hsGe6PYvMQrY68EnBaqC9OTnXhpTtD0KxSk-8gOmu_s4IHeZ4YcdbleXOjgjIJyecMNqoN6lWq6U53RiW3YT89uUuKS1riGw4keNyH8N4aapjK4pW7QQX2d7wGlKjfp_LqSsw_ztk5EAsxm4i4bAvChoB0xENgjjAiplf3vBK3rX7rc-gxo25UeoR95D9mEW0IF80eXi9GrSxFKaEv8I4DZorGq51AP-y7gGWMEzr4Z2VpFI2otBavJwEwDeSjxAfN0E0ISxrIwjWChxc", "state"=>"c4a8d0913be66817743ca9725809c32553b6522d0eeebd71"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.4ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 86ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-25 14:04:02 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (2.0ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (141.0ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 232ms (Views: 199.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 14:04:05 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 14:04:05 +1000
+Started GET "/new/login?code=AQAG0_5gUV-r7iIZHmoBh_DQqnM3jBws-aJcfUzsPb3K72ew2Ot4FzHLz1U4eT4yBwgviYLPVZA3kfbIqgWhmZAFgtigLwRb4g9i8Qm7J9_E0esuhRT-PvRTy49vgrNL54BHgpgcsVhgX_3FBq5vye2__NQEuQEtsSRvwJJt3y89XaWOxvz-D2sT_4wIsy_W541kPS2fYByhPu9RT1nt4CsrcHJugHUox9qw6r-_4wfLyjn_iOZcQI-d9m5474pT7NScM_uGsWN6aa4tr_qPxh5olkPfu3Yxmrw_nDRSk1t6U5emY7Rbl9P3wGJ2SKyZKFQ&state=8e790203cda03811534e136c1b00720513621660ecea843f" for ::1 at 2016-08-25 14:04:06 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQAG0_5gUV-r7iIZHmoBh_DQqnM3jBws-aJcfUzsPb3K72ew2Ot4FzHLz1U4eT4yBwgviYLPVZA3kfbIqgWhmZAFgtigLwRb4g9i8Qm7J9_E0esuhRT-PvRTy49vgrNL54BHgpgcsVhgX_3FBq5vye2__NQEuQEtsSRvwJJt3y89XaWOxvz-D2sT_4wIsy_W541kPS2fYByhPu9RT1nt4CsrcHJugHUox9qw6r-_4wfLyjn_iOZcQI-d9m5474pT7NScM_uGsWN6aa4tr_qPxh5olkPfu3Yxmrw_nDRSk1t6U5emY7Rbl9P3wGJ2SKyZKFQ", "state"=>"8e790203cda03811534e136c1b00720513621660ecea843f"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.2ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login?code=AQAG0_5gUV-r7iIZHmoBh_DQqnM3jBws-aJcfUzsPb3K72ew2Ot4FzHLz1U4eT4yBwgviYLPVZA3kfbIqgWhmZAFgtigLwRb4g9i8Qm7J9_E0esuhRT-PvRTy49vgrNL54BHgpgcsVhgX_3FBq5vye2__NQEuQEtsSRvwJJt3y89XaWOxvz-D2sT_4wIsy_W541kPS2fYByhPu9RT1nt4CsrcHJugHUox9qw6r-_4wfLyjn_iOZcQI-d9m5474pT7NScM_uGsWN6aa4tr_qPxh5olkPfu3Yxmrw_nDRSk1t6U5emY7Rbl9P3wGJ2SKyZKFQ&state=8e790203cda03811534e136c1b00720513621660ecea843f" for ::1 at 2016-08-25 14:04:10 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQAG0_5gUV-r7iIZHmoBh_DQqnM3jBws-aJcfUzsPb3K72ew2Ot4FzHLz1U4eT4yBwgviYLPVZA3kfbIqgWhmZAFgtigLwRb4g9i8Qm7J9_E0esuhRT-PvRTy49vgrNL54BHgpgcsVhgX_3FBq5vye2__NQEuQEtsSRvwJJt3y89XaWOxvz-D2sT_4wIsy_W541kPS2fYByhPu9RT1nt4CsrcHJugHUox9qw6r-_4wfLyjn_iOZcQI-d9m5474pT7NScM_uGsWN6aa4tr_qPxh5olkPfu3Yxmrw_nDRSk1t6U5emY7Rbl9P3wGJ2SKyZKFQ", "state"=>"8e790203cda03811534e136c1b00720513621660ecea843f"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (2.1ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login?code=AQAG0_5gUV-r7iIZHmoBh_DQqnM3jBws-aJcfUzsPb3K72ew2Ot4FzHLz1U4eT4yBwgviYLPVZA3kfbIqgWhmZAFgtigLwRb4g9i8Qm7J9_E0esuhRT-PvRTy49vgrNL54BHgpgcsVhgX_3FBq5vye2__NQEuQEtsSRvwJJt3y89XaWOxvz-D2sT_4wIsy_W541kPS2fYByhPu9RT1nt4CsrcHJugHUox9qw6r-_4wfLyjn_iOZcQI-d9m5474pT7NScM_uGsWN6aa4tr_qPxh5olkPfu3Yxmrw_nDRSk1t6U5emY7Rbl9P3wGJ2SKyZKFQ&state=8e790203cda03811534e136c1b00720513621660ecea843f" for ::1 at 2016-08-25 14:04:46 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQAG0_5gUV-r7iIZHmoBh_DQqnM3jBws-aJcfUzsPb3K72ew2Ot4FzHLz1U4eT4yBwgviYLPVZA3kfbIqgWhmZAFgtigLwRb4g9i8Qm7J9_E0esuhRT-PvRTy49vgrNL54BHgpgcsVhgX_3FBq5vye2__NQEuQEtsSRvwJJt3y89XaWOxvz-D2sT_4wIsy_W541kPS2fYByhPu9RT1nt4CsrcHJugHUox9qw6r-_4wfLyjn_iOZcQI-d9m5474pT7NScM_uGsWN6aa4tr_qPxh5olkPfu3Yxmrw_nDRSk1t6U5emY7Rbl9P3wGJ2SKyZKFQ", "state"=>"8e790203cda03811534e136c1b00720513621660ecea843f"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (5.9ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 264ms (Views: 258.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 14:46:17 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (14.4ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 891ms (Views: 858.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 15:04:34 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (12.8ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 1538ms (Views: 1505.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 15:04:40 +1000
+Started GET "/users/auth/facebook" for ::1 at 2016-08-25 15:04:42 +1000
+Started GET "/new/login?code=AQBGXziry0BIfN7IN5KKIH-61B7ESithdQ7a-di2uxSncQtDSsTCYR6oundZ0mach-v6BdGTexkhThjTEYMN5s1N986V1R52GELE1ZN7MyjDdevUszLpMzVhYay22W42vJjiql5wByCrVYxQk65DFe3ki0iddSfQImmDTu9ol0gZVmV5rvHRjl0AUJOdOKQsrNgdttKX7edIRLW1ChBp_m2DbDvEKccx61um7Cw5WW2ZY_qwSROBXuhKDLWPP4boKAosBAa41RWs6WKVPpRlkIFJ078BphzQ12zfwCl_t6w6izYBw09Z6M4hdIa46a3aLws&state=943f151c7aae253655600a70d126207096bf4229a8a2105e" for ::1 at 2016-08-25 15:04:42 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQBGXziry0BIfN7IN5KKIH-61B7ESithdQ7a-di2uxSncQtDSsTCYR6oundZ0mach-v6BdGTexkhThjTEYMN5s1N986V1R52GELE1ZN7MyjDdevUszLpMzVhYay22W42vJjiql5wByCrVYxQk65DFe3ki0iddSfQImmDTu9ol0gZVmV5rvHRjl0AUJOdOKQsrNgdttKX7edIRLW1ChBp_m2DbDvEKccx61um7Cw5WW2ZY_qwSROBXuhKDLWPP4boKAosBAa41RWs6WKVPpRlkIFJ078BphzQ12zfwCl_t6w6izYBw09Z6M4hdIa46a3aLws", "state"=>"943f151c7aae253655600a70d126207096bf4229a8a2105e"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.4ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login?code=AQBGXziry0BIfN7IN5KKIH-61B7ESithdQ7a-di2uxSncQtDSsTCYR6oundZ0mach-v6BdGTexkhThjTEYMN5s1N986V1R52GELE1ZN7MyjDdevUszLpMzVhYay22W42vJjiql5wByCrVYxQk65DFe3ki0iddSfQImmDTu9ol0gZVmV5rvHRjl0AUJOdOKQsrNgdttKX7edIRLW1ChBp_m2DbDvEKccx61um7Cw5WW2ZY_qwSROBXuhKDLWPP4boKAosBAa41RWs6WKVPpRlkIFJ078BphzQ12zfwCl_t6w6izYBw09Z6M4hdIa46a3aLws&state=943f151c7aae253655600a70d126207096bf4229a8a2105e" for ::1 at 2016-08-25 15:04:46 +1000
+Processing by NewController#login as HTML
+  Parameters: {"code"=>"AQBGXziry0BIfN7IN5KKIH-61B7ESithdQ7a-di2uxSncQtDSsTCYR6oundZ0mach-v6BdGTexkhThjTEYMN5s1N986V1R52GELE1ZN7MyjDdevUszLpMzVhYay22W42vJjiql5wByCrVYxQk65DFe3ki0iddSfQImmDTu9ol0gZVmV5rvHRjl0AUJOdOKQsrNgdttKX7edIRLW1ChBp_m2DbDvEKccx61um7Cw5WW2ZY_qwSROBXuhKDLWPP4boKAosBAa41RWs6WKVPpRlkIFJ078BphzQ12zfwCl_t6w6izYBw09Z6M4hdIa46a3aLws", "state"=>"943f151c7aae253655600a70d126207096bf4229a8a2105e"}
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.9ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-25 15:04:50 +1000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (1.7ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (117.4ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 193ms (Views: 162.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 15:06:18 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (7.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (92.9ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user_facebook_omniauth_authorize_path' for #<#<Class:0x007f82ec2d80e0>:0x007f82ece5ca10>):
+    36:         </a></li>
+    37: 
+    38:       </ul>
+    39:       <%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %>
+    40:     </div><!-- /.navbar-collapse -->
+    41:   </div><!-- /.container-fluid -->
+    42: </nav>
+  
+app/views/new/login.html.erb:39:in `_app_views_new_login_html_erb__3560970864276813910_70100142442720'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.4ms)
+Started GET "/new/login" for ::1 at 2016-08-25 15:14:12 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (79.7ms)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user_facebook_omniauth_authorize_path' for #<#<Class:0x007f82ec2d80e0>:0x007f82ecccebd0>):
+    36:         </a></li>
+    37: 
+    38:       </ul>
+    39:       <!--<%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %> -->
+    40:     </div><!-- /.navbar-collapse -->
+    41:   </div><!-- /.container-fluid -->
+    42: </nav>
+  
+app/views/new/login.html.erb:39:in `_app_views_new_login_html_erb__3560970864276813910_70100147677840'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.8ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.7ms)
+Started GET "/new/login" for ::1 at 2016-08-25 15:14:32 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (7.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (108.5ms)
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user_facebook_omniauth_authorize_path' for #<#<Class:0x007fb254505ba0>:0x007fb254566950>):
+    36:         </a></li>
+    37: 
+    38:       </ul>
+    39:       <!--<%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %> -->
+    40:     </div><!-- /.navbar-collapse -->
+    41:   </div><!-- /.container-fluid -->
+    42: </nav>
+  
+app/views/new/login.html.erb:39:in `_app_views_new_login_html_erb__2348636923712907900_70201947732080'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.0ms)
+Started GET "/new/login" for ::1 at 2016-08-25 15:16:13 +1000
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (1.2ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 832ms (Views: 829.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/login" for ::1 at 2016-08-25 15:48:48 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NewController#login as HTML
+  Rendering new/login.html.erb within layouts/application
+  Rendered new/login.html.erb within layouts/application (27.0ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 770ms (Views: 748.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/google_oauth2" for ::1 at 2016-08-25 15:48:52 +1000
+Started GET "/users/auth/google_oauth2" for ::1 at 2016-08-25 15:48:53 +1000
