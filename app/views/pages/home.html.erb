@@ -1,33 +1,81 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
-<div class="parallax"></div>
-<div id="header_text">
-    <div class="head">
-        <h1>TRISTAN SOUTHWELL</h1>
-        <h2>Full Stack web developer and extraordinary human being</h2>
+<div id="container">
+  <div id="group1">
+    <div class="background">
+      <div id="header_text">
+          <div class="head">
+            <h1>TRISTAN SOUTHWELL</h1>
+            <h2>Full Stack web developer and extraordinary human being</h2>
+          </div>
+      </div>
     </div>
 
-</div>
+    <div class="foreground">
+      <div id="portfolio">
+          <div class="middle">
+              <h1>COOL STUFF I HAVE DONE</h1>
+          </div>
+          <div class="row">
+              <% 4.times do %>
+              <div class="col-m-4 col-sm-6">
+                  <div class="thumbnail">
+                      <img src="http://placehold.it/242x200/333333/999999" class="img-responsive center-block" alt="placeholder">
+                  </div>
+              </div>
+              <% end %>
+          </div>
+      </div>
 
-<div id="page1"></div>
-
-<div id="portfolio">
-    <div class="middle">
-        <h1>COOL STUFF I HAVE DONE</h1>
+<footer class="footer">
+  <div class="aboutmecolor">
+    <div class="row" style="">
+      <div class="col-md-6" style="height: 538px; background-image: url('https://pbs.twimg.com/profile_images/2276970741/image.jpg'); background-repeat: no-repeat;">
+      </div>
+      <div class="col-md-6">
+        <h1>I am Tristan Southwell<h1>
+        <h3>Probably the best web developer I know<h3>
+        <b>Splitting my time between Sydney and Wollongong NSW. I am the best person in the world. I like candle lit dinners, long walks on the beach, and rescuing puppies from fires.<br>
+          I can also do heaps of cool stuff which I will add here when I can actually do it. Im sure it will be heaps impressive though. It will definitely include Ruby, Javascript, Rails, Node, HTML, CSS.</b>
+      </div>
     </div>
-    <div class="row">
-        <% 6.times do %>
-        <div class="col-m-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://placehold.it/242x200/333333/999999" class="img-responsive center-block" alt="placeholder">
-            </div>
+  </div>
+
+      <div class="row" style="background-color: black; height: 300px;">
+      <div class="bottom">
+        <div class="col-md-6">
+          <p>
+            If you like what I do, have something you would like me to work on, or just want to say hi send me an email.  Dont be shy.
+          </p>
+          <h3>
+            Email
+          </h3>
+          <p>
+            tristan@tristansouthwell.com
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>Feel free to contact me, or check out me and my work via the links below</p>
+
+          <p>
+          <div class="social">
+            <ul>
+            <li>
+              <a href='https://github.com/Unsentletter'>
+              <i class="fa fa-lg fa-github"></i>
+              </a>
+            </li>
+              <a href='https://www.linkedin.com/in/tristan-southwell-716681a3?trk=nav_responsive_tab_profile'>
+              <i class="fa fa-lg fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+          </div>
+          </p>
         </div>
 
-        <% end %>
-    </div>
-
-</div>
-</div>
+    </footer>
+  </div>
 </div>
 </div>

@@ -14,57 +14,48 @@
  *= require_self
  */
  @import "bootstrap-sprockets";
-@import "bootstrap";
+ @import "bootstrap";
 
-html {
-   background: url(http://polygonblog.com.www32.zoner-asiakas.fi/wp-content/uploads/2010/05/underwater.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   overflow-x: hidden;
-   width: 100%;
-   margin: 0px;
-   padding: 0px;
+ *, html, body {
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  vertical-align: baseline;
+  max-width: 100%;
  }
- body {
-   overflow-x: hidden;
-   width: 100%;
-   margin: 0px;
-   padding: 0px;
- }
- #header_text {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translateX(-50%) translateY(-50%);
-   }
 
 #header_text h1 {
   font-size: 80px;
-  overflow: hidden;
-  white-space: nowrap;
-  font-family: 'Montserrat', sans-serif;
 }
 
-#header_text h2 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-   }
+#header_text {
+  // putting text on top of image
+  background: url("http://polygonblog.com.www32.zoner-asiakas.fi/wp-content/uploads/2010/05/underwater.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  font-family: 'Montserrat', sans-serif;
+  // forcing text to one line
+  overflow: hidden;
+  white-space: nowrap;
+}
 
-.parallax {
-   /* The image used */
-   background-image: url(http://polygonblog.com.www32.zoner-asiakas.fi/wp-content/uploads/2010/05/underwater.jpg);
-
-   /* Set a specific height */
-   min-height: 100vh;
-   min-width: 100vw;
-
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+// forcing text to center of div
+.head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .aboutme {
@@ -72,67 +63,24 @@ html {
   width: 100%;
   min-height: 100%;
   padding-top: 10px;
+}
 
+.aboutmecolor {
+  background-color: #C2F1FB;
 }
 
 .middle {
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-/* social media links css begins */
-/* icons are in the middle of a circle and change color when mouse hovers*/
-.social {
-    margin: 0;
-    padding: 0;
-}
-.social ul {
-    margin: 0;
-    padding: 5px;
-}
-.social ul li {
-    margin: 5px;
-    list-style: none outside none;
-    display: inline-block;
-}
-.social i {
-    width: 40px;
-    height: 40px;
-    color: black;
-    background-color: #909AA0;
-    font-size: 22px;
-    text-align: center;
-    padding-top: 12px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
-}
-.social i:hover {
-    color: #FFF;
-    text-decoration: none;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
-}
-.social .fa-github:hover {
-    background: #343434;
-}
-.social .fa-linkedin:hover {
-    background: #0094BC;
-}
-/*social media links ends*/
+
 .bottom {
-  padding: 40px;
+  padding: 30px;
   background-color: black;
 }
+
 .contact {
   font-size: 30px;
   text-decoration: underline;
