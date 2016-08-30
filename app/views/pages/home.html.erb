@@ -19,11 +19,9 @@
           </div>
           <div class="row">
               <% 4.times do %>
-              <div class="col-m-4 col-sm-6">
                   <div class="thumbnail">
                       <img src="http://placehold.it/242x200/333333/999999" class="img-responsive center-block" alt="placeholder">
                   </div>
-              </div>
               <% end %>
           </div>
       </div>
@@ -44,37 +42,42 @@
 
       <div class="row" style="background-color: black; height: 300px;">
       <div class="bottom">
-        <div class="col-md-6">
-          <p>
-            If you like what I do, have something you would like me to work on, or just want to say hi send me an email.  Dont be shy.
-          </p>
-          <h3>
-            Email
-          </h3>
-          <p>
-            tristan@tristansouthwell.com
-          </p>
+        <div class="bottomfont">
+          <div class="col-md-6">
+            <p>
+              If you like what I do, have something you would like me to work on, or just want to say hi send me an email.  Dont be shy.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>Feel free to contact me, or check out me and my work via the links below</p>
         </div>
-        <div class="col-md-6">
-          <p>Feel free to contact me, or check out me and my work via the links below</p>
-
           <p>
           <div class="social">
             <ul>
-            <li>
-              <a href='https://github.com/Unsentletter'>
-              <i class="fa fa-lg fa-github"></i>
-              </a>
-            </li>
-              <a href='https://www.linkedin.com/in/tristan-southwell-716681a3?trk=nav_responsive_tab_profile'>
-              <i class="fa fa-lg fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
+              <li>
+                <a href='https://github.com/Unsentletter'>
+                <i class="fa fa-lg fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href='https://www.linkedin.com/in/tristan-southwell-716681a3?trk=nav_responsive_tab_profile'>
+                <i class="fa fa-lg fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a>
+                <%= link_to new_enquiry_path do %>
+                <i class="fa fa-lg fa-envelope"></i>
+                <%end%>
+                </a>
+              </li>
+              <li>
+                <%=link_to 'tristan@tristansouthwell.com',new_enquiry_path%>
+              </li>
+            </ul>
           </div>
           </p>
         </div>
-
     </footer>
   </div>
 </div>

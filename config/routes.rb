@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :enquiries
   get 'new/login'
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   root 'pages#home'
