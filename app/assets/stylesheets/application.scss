@@ -15,6 +15,8 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
 
  *, html, body {
   padding: 0;
@@ -31,11 +33,12 @@
  // * {
  //   border-style: solid;
  //   border-width: 1px;
- //   border-color: black;
+ //   border-color: white;
  // }
 
 #header_text h1 {
   font-size: 8vw;
+  text-shadow: 1px 1px 1px #000;
 }
 
 #header_text h2 {
@@ -91,7 +94,8 @@
 }
 
 .bottom {
-  padding: 30px;
+  width: 100%;
+  padding: 0;
   background-color: black;
 }
 
@@ -112,4 +116,8 @@
 
 .bottom {
   color: #909AA0;
+}
+.footercolor {
+  padding-top: 15px;
+  background-color: black;
 }
