@@ -1,0 +1,8 @@
+LOG:  database system was shut down at 2016-08-31 09:50:27 AEST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  database "portfolio2" already exists
+STATEMENT:  CREATE DATABASE "portfolio2" ENCODING = 'utf8'
+ERROR:  database "portfolio" already exists
+STATEMENT:  CREATE DATABASE "portfolio" ENCODING = 'utf8'

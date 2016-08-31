@@ -35,7 +35,11 @@
  // }
 
 #header_text h1 {
-  font-size: 80px;
+  font-size: 8vw;
+}
+
+#header_text h2 {
+  font-size: 3vw;
 }
 
 #header_text {
@@ -83,7 +87,7 @@
 
 .middle h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 5vw;
 }
 
 .bottom {
@@ -94,5 +98,18 @@
 .bottomfont p {
   font-size: 20px;
   line-height: 140%;
+}
 
+.aboutme h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutme p {
+  font-size: 20px;
+  line-height: 120%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom {
+  color: #909AA0;
 }
