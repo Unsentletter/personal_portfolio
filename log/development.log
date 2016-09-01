@@ -7222,3 +7222,203 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 3104ms (Views: 3101.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-08-31 21:51:03 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 4465ms (Views: 4430.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-31 21:51:18 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 240ms (Views: 236.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-31 21:51:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 128ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-31 21:51:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 416ms (Views: 412.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-31 21:52:00 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 228ms (Views: 224.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-08-31 21:52:05 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 09:40:03 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 5652ms (Views: 5589.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 09:41:02 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 3916ms (Views: 3906.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 09:41:16 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3685ms (Views: 3682.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 10:27:17 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 597ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...derwater_wvkcq4": expected ")", was ".jpg")");"):
+    22:     <meta name="twitter:image" content="{{imageUrl}}">
+    23: 
+    24:     <%= csrf_meta_tags %>
+    25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    27:   </head>
+    28: 
+  
+app/assets/stylesheets/application.scss:51
+app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__2293347924067568668_70277994654560'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (128.8ms)
+Started GET "/" for ::1 at 2016-09-01 10:27:36 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...derwater_wvkcq4": expected ")", was ".jpg")");"):
+    22:     <meta name="twitter:image" content="{{imageUrl}}">
+    23: 
+    24:     <%= csrf_meta_tags %>
+    25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    27:   </head>
+    28: 
+  
+app/assets/stylesheets/application.scss:51
+app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__2293347924067568668_70277986339200'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.1ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.1ms)
+Started GET "/" for ::1 at 2016-09-01 10:36:18 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 4396ms (Views: 4387.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-01 11:01:40 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 4622ms (Views: 4553.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 11:02:03 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 4434ms (Views: 4431.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 11:03:20 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 1941ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...er_wvkcq4.jpg")": expected ";", was "!;"):
+    22:     <meta name="twitter:image" content="{{imageUrl}}">
+    23: 
+    24:     <%= csrf_meta_tags %>
+    25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    27:   </head>
+    28: 
+  
+app/assets/stylesheets/application.scss:51
+app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___2077321574167989637_70259050821480'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.2ms)
+Started GET "/" for ::1 at 2016-09-01 11:03:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3511ms (Views: 3508.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 11:04:51 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 5090ms (Views: 5086.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 11:05:14 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 3979ms (Views: 3968.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-01 14:08:38 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (259.7ms)
+Completed 200 OK in 3614ms (Views: 3501.8ms | ActiveRecord: 0.0ms)
+
+

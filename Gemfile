@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'carrierwave'
+gem 'cloudinary'
 gem 'simple_form'
 gem "omniauth-google-oauth2"
 gem 'omniauth-facebook'
