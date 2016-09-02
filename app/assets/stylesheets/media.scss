@@ -1,0 +1,19 @@
+
+@media (max-width: 600px) {
+ .aboutme h1, h3, p {
+   text-align: center;
+ }
+
+ .bottom {
+   text-align: center;
+   min-height: 100vh;
+ }
+
+ .background h1 {
+   text-align: center;
+ }
+
+ .aboutme {
+   overflow:scroll;
+ }
+}
