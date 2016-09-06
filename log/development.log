@@ -7,9 +7,9 @@ Completed 200 OK in 61ms (Views: 39.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/home" for ::1 at 2016-08-24 10:25:09 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/home"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -115,9 +115,9 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
 
 
-  
+
 SyntaxError (/Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views/pages/home.html.erb:43: syntax error, unexpected keyword_ensure, expecting end-of-input):
-  
+
 app/views/pages/home.html.erb:43: syntax error, unexpected keyword_ensure, expecting end-of-input
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -992,16 +992,16 @@ Processing by NewController#login as HTML
 Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `user_facebook_omniauth_authorize_path' for #<#<Class:0x007f82ec2d80e0>:0x007f82ece5ca10>):
     36:         </a></li>
-    37: 
+    37:
     38:       </ul>
     39:       <%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %>
     40:     </div><!-- /.navbar-collapse -->
     41:   </div><!-- /.container-fluid -->
     42: </nav>
-  
+
 app/views/new/login.html.erb:39:in `_app_views_new_login_html_erb__3560970864276813910_70100142442720'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -1018,16 +1018,16 @@ Processing by NewController#login as HTML
 Completed 500 Internal Server Error in 106ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `user_facebook_omniauth_authorize_path' for #<#<Class:0x007f82ec2d80e0>:0x007f82ecccebd0>):
     36:         </a></li>
-    37: 
+    37:
     38:       </ul>
     39:       <!--<%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %> -->
     40:     </div><!-- /.navbar-collapse -->
     41:   </div><!-- /.container-fluid -->
     42: </nav>
-  
+
 app/views/new/login.html.erb:39:in `_app_views_new_login_html_erb__3560970864276813910_70100147677840'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -1045,16 +1045,16 @@ Processing by NewController#login as HTML
 Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `user_facebook_omniauth_authorize_path' for #<#<Class:0x007fb254505ba0>:0x007fb254566950>):
     36:         </a></li>
-    37: 
+    37:
     38:       </ul>
     39:       <!--<%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %> -->
     40:     </div><!-- /.navbar-collapse -->
     41:   </div><!-- /.container-fluid -->
     42: </nav>
-  
+
 app/views/new/login.html.erb:39:in `_app_views_new_login_html_erb__2348636923712907900_70201947732080'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -1094,9 +1094,9 @@ Completed 200 OK in 837ms (Views: 803.6ms | ActiveRecord: 0.0ms)
 
 Started GET "/enquiries" for ::1 at 2016-08-26 17:47:33 +1000
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/enquiries"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1132,9 +1132,9 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.1ms)
   Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (165.1ms)
 Started GET "/enquiries" for ::1 at 2016-08-26 17:48:38 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/enquiries"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -1665,16 +1665,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 3548ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "  font-style:": expected expression (e.g. 1px, bold), was ";"):
     4:     <title>Portfolio2</title>
     5:     <%= csrf_meta_tags %>
-    6: 
+    6:
     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     9:   </head>
-   10: 
-  
+   10:
+
 app/assets/stylesheets/pages.scss:61
 app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2517388239687361202_70283844312200'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -2300,16 +2300,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 1768ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after ".": expected class name, was ""):
     4:     <title>Portfolio2</title>
     5:     <%= csrf_meta_tags %>
-    6: 
+    6:
     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     9:   </head>
-   10: 
-  
+   10:
+
 app/assets/stylesheets/application.scss:133
 app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2517388239687361202_70283828844600'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -3219,16 +3219,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 2853ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after ".../underwater.jpg": expected "{", was ""):
     4:     <title>Portfolio2</title>
     5:     <%= csrf_meta_tags %>
-    6: 
+    6:
     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     9:   </head>
-   10: 
-  
+   10:
+
 app/assets/stylesheets/parallax.scss:6
 app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2550751027505272223_70116563944760'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -3262,16 +3262,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "...nderwater.jpg)"": expected ")", was ";"):
     4:     <title>Portfolio2</title>
     5:     <%= csrf_meta_tags %>
-    6: 
+    6:
     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     9:   </head>
-   10: 
-  
+   10:
+
 app/assets/stylesheets/application.scss:39
 app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2550751027505272223_70116599027800'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -3797,7 +3797,7 @@ Completed 200 OK in 643ms (Views: 619.1ms | ActiveRecord: 0.0ms)
 
 Started GET "/" for ::1 at 2016-08-29 16:28:08 +1000
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  
+
 ActiveRecord::PendingMigrationError (
 
 Migrations are pending. To resolve this issue, run:
@@ -3805,7 +3805,7 @@ Migrations are pending. To resolve this issue, run:
 	bin/rails db:migrate RAILS_ENV=development
 
 ):
-  
+
 activerecord (5.0.0.1) lib/active_record/migration.rb:572:in `check_pending!'
 activerecord (5.0.0.1) lib/active_record/migration.rb:548:in `call'
 actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
@@ -3884,13 +3884,13 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `email' for #<#<Class:0x007f9661e50de0>:0x007f9661e73ae8>):
     1: <%= form_for(email) do |f| %>
     2:   <% if email.errors.any? %>
     3:     <div id="error_explanation">
     4:       <h2><%= pluralize(email.errors.count, "error") %> prohibited this email from being saved:</h2>
-  
+
 app/views/emails/_form.html.erb:1:in `_app_views_emails__form_html_erb__2889219334052936886_70141922315760'
 app/views/pages/home.html.erb:78:in `_app_views_pages_home_html_erb__4536253250609102251_70141932116240'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -4079,7 +4079,7 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 394ms (ActiveRecord: 0.0ms)
 
 
-  
+
 SyntaxError (/Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views/pages/home.html.erb:73: syntax error, unexpected '<', expecting ')'
                 <i class="fa fa-envelope"></i>
                  ^
@@ -4110,7 +4110,7 @@ unmatched close parenthesis: /i>
 </div>
  ^
 /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views/pages/home.html.erb:85: unterminated regexp meets end of file):
-  
+
 app/views/pages/home.html.erb:73: syntax error, unexpected '<', expecting ')'
 app/views/pages/home.html.erb:73: syntax error, unexpected '<'
 app/views/pages/home.html.erb:75: unknown regexp option - a
@@ -4227,13 +4227,13 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
 
 
-  
+
 SyntaxError (/Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views/pages/home.html.erb:73: syntax error, unexpected ')', expecting '='
 ...ppend=(link_to, new_email_path);@output_buffer.safe_append='...
 ...                               ^
 /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views/pages/home.html.erb:90: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views/pages/home.html.erb:92: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/pages/home.html.erb:73: syntax error, unexpected ')', expecting '='
 app/views/pages/home.html.erb:90: syntax error, unexpected keyword_ensure, expecting ')'
 app/views/pages/home.html.erb:92: syntax error, unexpected keyword_end, expecting ')'
@@ -4301,18 +4301,18 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 2498ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Missing partial partials/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
   * "/Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/app/views"
   * "/Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/devise-4.2.0/app/views"
 ):
-    10: 
+    10:
     11:   <body>
     12:     <%= yield %>
     13:     <%= render 'partials/footer' %>
     14:   </body>
     15: </html>
-  
+
 app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___723459646649128165_70290192509100'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4574,16 +4574,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "  font-colour:": expected expression (e.g. 1px, bold), was "}"):
     22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
+    23:
     24:     <%= csrf_meta_tags %>
     25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     27:   </head>
-    28: 
-  
+    28:
+
 app/assets/stylesheets/application.scss:89
 app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___723459646649128165_70290248372540'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -4706,16 +4706,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 191ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "  border": expected "{", was "}"):
     22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
+    23:
     24:     <%= csrf_meta_tags %>
     25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     27:   </head>
-    28: 
-  
+    28:
+
 app/assets/stylesheets/application.scss:22
 app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___723459646649128165_70290282416640'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -5138,9 +5138,9 @@ Processing by EnquiriesController#show as HTML
 Completed 404 Not Found in 86ms (ActiveRecord: 18.5ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find Enquiry with 'id'=create):
-  
+
 app/controllers/enquiries_controller.rb:67:in `set_enquiry'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5949,16 +5949,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ": blue;"):
     22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
+    23:
     24:     <%= csrf_meta_tags %>
     25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     27:   </head>
-    28: 
-  
+    28:
+
 app/assets/stylesheets/application.scss:102
 app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1528969890326321376_70316304764460'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -6004,16 +6004,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 1686ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after ".aboutme": expected selector, was "@media (max-wid..."):
     22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
+    23:
     24:     <%= csrf_meta_tags %>
     25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     27:   </head>
-    28: 
-  
+    28:
+
 app/assets/stylesheets/application.scss:102
 app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1528969890326321376_70316325998520'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -6150,16 +6150,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 5985ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "    color:": expected expression (e.g. 1px, bold), was "}"):
     22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
+    23:
     24:     <%= csrf_meta_tags %>
     25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     27:   </head>
-    28: 
-  
+    28:
+
 app/assets/stylesheets/media.scss:17
 app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___1528969890326321376_70316273915600'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -6858,16 +6858,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 2938ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "...>SOUTHWELL</h1>": expected "{", was "}"):
     22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
+    23:
     24:     <%= csrf_meta_tags %>
     25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     27:   </head>
-    28: 
-  
+    28:
+
 app/assets/stylesheets/media.scss:16
 app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__4287005614329738826_70226382098540'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -6885,16 +6885,16 @@ Processing by PagesController#home as HTML
 Completed 500 Internal Server Error in 2005ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "...N <br>SOUTHWELL": expected "{", was "}"):
     22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
+    23:
     24:     <%= csrf_meta_tags %>
     25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     27:   </head>
-    28: 
-  
+    28:
+
 app/assets/stylesheets/media.scss:16
 app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__4287005614329738826_70226427862940'
   Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -7285,1072 +7285,49 @@ Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
   Rendered pages/home.html.erb within layouts/application (2.1ms)
 Completed 200 OK in 3685ms (Views: 3682.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-01 10:27:17 +1000
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-02 22:34:46 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (5.8ms)
-Completed 500 Internal Server Error in 597ms (ActiveRecord: 0.0ms)
+  Rendered pages/home.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 1862ms (Views: 1831.1ms | ActiveRecord: 0.0ms)
 
 
-  
-ActionView::Template::Error (Invalid CSS after "...derwater_wvkcq4": expected ")", was ".jpg")");"):
-    22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
-    24:     <%= csrf_meta_tags %>
-    25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    27:   </head>
-    28: 
-  
-app/assets/stylesheets/application.scss:51
-app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__2293347924067568668_70277994654560'
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.0ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (128.8ms)
-Started GET "/" for ::1 at 2016-09-01 10:27:36 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.6ms)
-Completed 500 Internal Server Error in 164ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (Invalid CSS after "...derwater_wvkcq4": expected ")", was ".jpg")");"):
-    22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
-    24:     <%= csrf_meta_tags %>
-    25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    27:   </head>
-    28: 
-  
-app/assets/stylesheets/application.scss:51
-app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__2293347924067568668_70277986339200'
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.1ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.1ms)
-Started GET "/" for ::1 at 2016-09-01 10:36:18 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.7ms)
-Completed 200 OK in 4396ms (Views: 4387.1ms | ActiveRecord: 0.0ms)
-
-
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-Started GET "/" for ::1 at 2016-09-01 11:01:40 +1000
-  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.0ms)
-Completed 200 OK in 4622ms (Views: 4553.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-01 11:02:03 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.8ms)
-Completed 200 OK in 4434ms (Views: 4431.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-01 11:03:20 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.5ms)
-Completed 500 Internal Server Error in 1941ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (Invalid CSS after "...er_wvkcq4.jpg")": expected ";", was "!;"):
-    22:     <meta name="twitter:image" content="{{imageUrl}}">
-    23: 
-    24:     <%= csrf_meta_tags %>
-    25:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    26:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    27:   </head>
-    28: 
-  
-app/assets/stylesheets/application.scss:51
-app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___2077321574167989637_70259050821480'
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.2ms)
-Started GET "/" for ::1 at 2016-09-01 11:03:34 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 3511ms (Views: 3508.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-01 11:04:51 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (3.1ms)
-Completed 200 OK in 5090ms (Views: 5086.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-01 11:05:14 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (5.4ms)
-Completed 200 OK in 3979ms (Views: 3968.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-01 14:08:38 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (259.7ms)
-Completed 200 OK in 3614ms (Views: 3501.8ms | ActiveRecord: 0.0ms)
-
-
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
-Started GET "/" for ::1 at 2016-09-02 10:14:11 +1000
-  [1m[36mActiveRecord::SchemaMigration Load (19.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.0ms)
-Completed 200 OK in 3999ms (Views: 3957.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 10:14:40 +1000
+Started GET "/enquiries/new" for ::1 at 2016-09-02 22:34:53 +1000
 Processing by EnquiriesController#new as HTML
   Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (604.1ms)
-  Rendered enquiries/new.html.erb within layouts/application (608.2ms)
-Completed 200 OK in 1311ms (Views: 704.7ms | ActiveRecord: 528.5ms)
+  Rendered enquiries/_form.html.erb (259.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (263.4ms)
+Completed 200 OK in 566ms (Views: 401.7ms | ActiveRecord: 127.7ms)
 
 
-Started POST "/enquiries" for ::1 at 2016-09-02 10:15:17 +1000
+Started POST "/enquiries" for ::1 at 2016-09-02 22:35:09 +1000
 Processing by EnquiriesController#create as HTML
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ueaEyeVEKnyDXyonAokzBwiqxKJEQvJ8DZCscs2ewJ/GZxfQbhPgKoNoPNWkzSP1lcEo5aIzGV//2eYnpfr+YA==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
-  [1m[35m (22.9ms)[0m  [1m[35mBEGIN[0m
-  [1m[35mSQL (105.6ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-02 00:15:17 UTC], ["updated_at", 2016-09-02 00:15:17 UTC]]
-  [1m[35m (30.5ms)[0m  [1m[35mCOMMIT[0m
-  Rendering enquiry_mailer/response.html.erb within layouts/mailer
-  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
-  Rendering enquiry_mailer/response.text.erb within layouts/mailer
-  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
-EnquiryMailer#response: processed outbound mail in 293.7ms
-Sent mail to trit (4399.6ms)
-Date: Fri, 02 Sep 2016 10:15:19 +1000
-From: tristan@tristansouthwell.com
-To: trit
-Message-ID: <57c8c4976af66_28643fe92d82bf088503c@Tristans-MacBook-Pro.local.mail>
-Subject: Thanks for your enquiry
-Mime-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="--==_mimepart_57c8c4976049c_28643fe92d82bf08849c3";
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-
-----==_mimepart_57c8c4976049c_28643fe92d82bf08849c3
-Content-Type: text/plain;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-Enquiry#response
-
-, find me in app/views/enquiry_mailer/response.text.erb
-
-
-----==_mimepart_57c8c4976049c_28643fe92d82bf08849c3
-Content-Type: text/html;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style>
-      /* Email styles need to be inline */
-    </style>
-  </head>
-
-  <body>
-    <h1>Enquiry#response</h1>
-
-<p>
-Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
-</p>
-
-  </body>
-</html>
-
-----==_mimepart_57c8c4976049c_28643fe92d82bf08849c3--
-
-  Rendering enquiry_mailer/received.html.erb within layouts/mailer
-  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
-  Rendering enquiry_mailer/received.text.erb within layouts/mailer
-  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
-EnquiryMailer#received: processed outbound mail in 52.7ms
-Sent mail to tristan@tristansouthwell.com (5662.5ms)
-Date: Fri, 02 Sep 2016 10:15:23 +1000
-From: tristan@tristansouthwell.com
-To: tristan@tristansouthwell.com
-Message-ID: <57c8c49bcfd12_28643fe92d82bf088522f@Tristans-MacBook-Pro.local.mail>
-Subject: An enquiry has been receieved
-Mime-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="--==_mimepart_57c8c49bcf13d_28643fe92d82bf08851f7";
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-
-----==_mimepart_57c8c49bcf13d_28643fe92d82bf08851f7
-Content-Type: text/plain;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-Enquiry#received
-
-, find me in app/views/enquiry_mailer/received.text.erb
-
-
-----==_mimepart_57c8c49bcf13d_28643fe92d82bf08851f7
-Content-Type: text/html;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style>
-      /* Email styles need to be inline */
-    </style>
-  </head>
-
-  <body>
-    <p>
-  <strong>Name:</strong>
-  trit
-</p>
-
-<p>
-  <strong>Email:</strong>
-  tristan.southwell@hotmail.com
-</p>
-
-<p>
-  <strong>Subject:</strong>
-  test
-</p>
-
-<p>
-  <strong>Message:</strong>
-  test
-</p>
-
-  </body>
-</html>
-
-----==_mimepart_57c8c49bcf13d_28643fe92d82bf08851f7--
-
-Redirected to http://localhost:3000/enquiries/1
-Completed 302 Found in 11684ms (ActiveRecord: 158.9ms)
-
-
-Started GET "/enquiries/1" for ::1 at 2016-09-02 10:15:29 +1000
-Processing by EnquiriesController#show as HTML
-  Parameters: {"id"=>"1"}
-  [1m[36mEnquiry Load (11.7ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
-  Rendering enquiries/show.html.erb within layouts/application
-  Rendered enquiries/show.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 194ms (Views: 114.5ms | ActiveRecord: 12.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 10:40:59 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.4ms)
-Completed 200 OK in 629ms (Views: 621.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 11:01:27 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (44.0ms)
-  Rendered enquiries/new.html.erb within layouts/application (53.1ms)
-Completed 200 OK in 506ms (Views: 480.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries" for ::1 at 2016-09-02 11:01:30 +1000
-Processing by EnquiriesController#index as HTML
-  Rendering enquiries/index.html.erb within layouts/application
-  [1m[36mEnquiry Load (0.9ms)[0m  [1m[34mSELECT "enquiries".* FROM "enquiries"[0m
-  Rendered enquiries/index.html.erb within layouts/application (6.2ms)
-Completed 200 OK in 97ms (Views: 67.0ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 11:11:45 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (35.8ms)
-  Rendered enquiries/new.html.erb within layouts/application (44.3ms)
-Completed 200 OK in 430ms (Views: 393.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 11:28:17 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.8ms)
-Completed 200 OK in 202ms (Views: 195.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 11:28:23 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.6ms)
-Completed 200 OK in 110ms (Views: 106.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 11:28:55 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (2.0ms)
-Completed 200 OK in 104ms (Views: 101.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 11:29:30 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.5ms)
-Completed 200 OK in 116ms (Views: 107.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 11:38:01 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (22.3ms)
-  Rendered enquiries/new.html.erb within layouts/application (29.3ms)
-Completed 200 OK in 316ms (Views: 285.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 11:45:18 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.9ms)
-Completed 200 OK in 306ms (Views: 299.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 11:51:17 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (29.1ms)
-  Rendered enquiries/new.html.erb within layouts/application (39.6ms)
-Completed 200 OK in 452ms (Views: 415.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:00:20 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.6ms)
-Completed 200 OK in 330ms (Views: 312.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:02:07 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.2ms)
-Completed 200 OK in 257ms (Views: 247.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:05:39 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.0ms)
-Completed 200 OK in 221ms (Views: 213.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:05:56 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.5ms)
-Completed 200 OK in 84ms (Views: 82.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:08:29 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.0ms)
-Completed 200 OK in 311ms (Views: 303.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:17:14 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (30.5ms)
-Completed 200 OK in 454ms (Views: 434.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:44:39 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (45.3ms)
-Completed 200 OK in 5008ms (Views: 5000.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:45:06 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.5ms)
-Completed 200 OK in 3601ms (Views: 3592.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:45:16 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.4ms)
-Completed 200 OK in 3037ms (Views: 3033.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:45:50 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (2.4ms)
-Completed 200 OK in 3412ms (Views: 3408.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:46:32 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.8ms)
-Completed 200 OK in 3987ms (Views: 3977.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 12:47:04 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.1ms)
-Completed 200 OK in 183ms (Views: 175.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:42:06 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.2ms)
-Completed 200 OK in 562ms (Views: 552.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:42:33 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.9ms)
-Completed 200 OK in 394ms (Views: 381.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:42:46 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.9ms)
-Completed 200 OK in 145ms (Views: 141.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:42:54 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (9.5ms)
-Completed 200 OK in 203ms (Views: 191.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:53:10 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.0ms)
-Completed 200 OK in 5856ms (Views: 5847.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:53:32 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.9ms)
-Completed 200 OK in 4945ms (Views: 4925.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:56:41 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.5ms)
-Completed 200 OK in 675ms (Views: 664.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:58:31 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (5.5ms)
-Completed 200 OK in 462ms (Views: 454.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 13:59:18 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (35.0ms)
-Completed 200 OK in 3897ms (Views: 3886.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:02:45 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (9.5ms)
-Completed 200 OK in 360ms (Views: 349.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:03:45 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (5.3ms)
-Completed 200 OK in 3824ms (Views: 3817.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:04:08 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 3053ms (Views: 3050.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:06:10 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.8ms)
-Completed 200 OK in 306ms (Views: 293.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:07:19 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (9.2ms)
-Completed 200 OK in 4403ms (Views: 4376.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:08:27 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.7ms)
-Completed 200 OK in 6264ms (Views: 6254.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:09:26 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.3ms)
-Completed 200 OK in 6926ms (Views: 6914.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:12:53 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (6.8ms)
-Completed 200 OK in 3503ms (Views: 3494.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:27:38 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.2ms)
-Completed 200 OK in 845ms (Views: 835.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:28:01 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.1ms)
-Completed 200 OK in 567ms (Views: 555.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:48:05 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.5ms)
-Completed 200 OK in 833ms (Views: 783.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:50:01 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (3.8ms)
-Completed 200 OK in 271ms (Views: 266.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:50:17 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.7ms)
-Completed 200 OK in 3695ms (Views: 3689.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:50:30 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 433ms (Views: 429.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 14:52:13 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (9.7ms)
-Completed 200 OK in 434ms (Views: 422.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 15:02:41 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.8ms)
-Completed 200 OK in 1019ms (Views: 1007.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 15:45:47 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (479.9ms)
-Completed 200 OK in 3593ms (Views: 3345.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 15:59:36 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (241.4ms)
-Completed 200 OK in 13561ms (Views: 13552.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:00:18 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (100.5ms)
-Completed 200 OK in 2220ms (Views: 2212.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:04:02 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (30.4ms)
-Completed 200 OK in 8456ms (Views: 8411.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:11:36 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (26.9ms)
-Completed 200 OK in 4386ms (Views: 4375.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:12:41 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (5.5ms)
-Completed 200 OK in 3213ms (Views: 3205.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:13:18 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 3484ms (Views: 3481.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:13:55 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 2837ms (Views: 2834.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:14:44 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (2.5ms)
-Completed 200 OK in 5524ms (Views: 5520.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:15:30 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.4ms)
-Completed 200 OK in 384ms (Views: 374.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:16:00 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (2.3ms)
-Completed 200 OK in 528ms (Views: 525.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:17:27 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.9ms)
-Completed 200 OK in 3563ms (Views: 3553.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:19:48 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.0ms)
-Completed 200 OK in 4073ms (Views: 4064.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:20:22 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (7.8ms)
-Completed 200 OK in 4439ms (Views: 4431.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:20:55 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.8ms)
-Completed 200 OK in 4021ms (Views: 4013.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:23:21 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.0ms)
-Completed 200 OK in 3634ms (Views: 3627.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:24:23 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (8.9ms)
-Completed 200 OK in 4008ms (Views: 4000.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:25:45 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (9.0ms)
-Completed 200 OK in 3759ms (Views: 3749.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:25:49 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (0.9ms)
-Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:25:49 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.0ms)
-Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:26:28 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.0ms)
-Started GET "/" for ::1 at 2016-09-02 16:26:30 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.0ms)
-Completed 200 OK in 6094ms (Views: 6083.7ms | ActiveRecord: 0.0ms)
-
-
-Completed 200 OK in 3655ms (Views: 3651.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:26:53 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.6ms)
-Completed 200 OK in 3137ms (Views: 3134.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:27:11 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.1ms)
-Completed 200 OK in 2820ms (Views: 2816.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:27:52 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.4ms)
-Completed 200 OK in 2994ms (Views: 2991.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 16:35:48 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (127.4ms)
-  Rendered enquiries/new.html.erb within layouts/application (156.1ms)
-Completed 200 OK in 494ms (Views: 468.7ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enquiries" for ::1 at 2016-09-02 16:35:53 +1000
-Processing by EnquiriesController#create as HTML
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ArpdrvswCo51UlcB2N1ejpVQ15oAeRO4IJlo27y2AwZ9O863cGfA2HVlQfN+mU58CDs73eYI+JvS0CKO1NI9+Q==", "enquiry"=>{"name"=>"", "email"=>"", "subject"=>"", "message"=>""}, "commit"=>"Create Enquiry"}
-  [1m[35m (88.3ms)[0m  [1m[35mBEGIN[0m
-  [1m[35mSQL (512.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", ""], ["email", ""], ["subject", ""], ["message", ""], ["created_at", 2016-09-02 06:35:54 UTC], ["updated_at", 2016-09-02 06:35:54 UTC]]
-  [1m[35m (14.0ms)[0m  [1m[35mCOMMIT[0m
-  Rendering enquiry_mailer/response.html.erb within layouts/mailer
-  Rendered enquiry_mailer/response.html.erb within layouts/mailer (1.0ms)
-  Rendering enquiry_mailer/response.text.erb within layouts/mailer
-  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.6ms)
-EnquiryMailer#response: processed outbound mail in 205.5ms
-Sent mail to  (86.9ms)
-Date: Fri, 02 Sep 2016 16:35:54 +1000
-From: tristan@tristansouthwell.com
-Message-ID: <57c91dcadbe3a_28643fe92d82bf088546@Tristans-MacBook-Pro.local.mail>
-Subject: Thanks for your enquiry
-Mime-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="--==_mimepart_57c91dcac8c6a_28643fe92d82bf0885388";
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-
-----==_mimepart_57c91dcac8c6a_28643fe92d82bf0885388
-Content-Type: text/plain;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-Enquiry#response
-
-, find me in app/views/enquiry_mailer/response.text.erb
-
-
-----==_mimepart_57c91dcac8c6a_28643fe92d82bf0885388
-Content-Type: text/html;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style>
-      /* Email styles need to be inline */
-    </style>
-  </head>
-
-  <body>
-    <h1>Enquiry#response</h1>
-
-<p>
-Hi , thank you for your enquiry.<br>I will reply as soon as possible
-</p>
-
-  </body>
-</html>
-
-----==_mimepart_57c91dcac8c6a_28643fe92d82bf0885388--
-
-  Rendering enquiry_mailer/received.html.erb within layouts/mailer
-  Rendered enquiry_mailer/received.html.erb within layouts/mailer (1.0ms)
-  Rendering enquiry_mailer/received.text.erb within layouts/mailer
-  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.6ms)
-EnquiryMailer#received: processed outbound mail in 62.6ms
-Sent mail to tristan@tristansouthwell.com (4686.6ms)
-Date: Fri, 02 Sep 2016 16:35:54 +1000
-From: tristan@tristansouthwell.com
-To: tristan@tristansouthwell.com
-Message-ID: <57c91dcaef8b6_28643fe92d82bf0885669@Tristans-MacBook-Pro.local.mail>
-Subject: An enquiry has been receieved
-Mime-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="--==_mimepart_57c91dcaee501_28643fe92d82bf08855b";
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-
-----==_mimepart_57c91dcaee501_28643fe92d82bf08855b
-Content-Type: text/plain;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-Enquiry#received
-
-, find me in app/views/enquiry_mailer/received.text.erb
-
-
-----==_mimepart_57c91dcaee501_28643fe92d82bf08855b
-Content-Type: text/html;
- charset=UTF-8
-Content-Transfer-Encoding: 7bit
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style>
-      /* Email styles need to be inline */
-    </style>
-  </head>
-
-  <body>
-    <p>
-  <strong>Name:</strong>
-  
-</p>
-
-<p>
-  <strong>Email:</strong>
-  
-</p>
-
-<p>
-  <strong>Subject:</strong>
-  
-</p>
-
-<p>
-  <strong>Message:</strong>
-  
-</p>
-
-  </body>
-</html>
-
-----==_mimepart_57c91dcaee501_28643fe92d82bf08855b--
-
-Redirected to http://localhost:3000/enquiries/2
-Completed 302 Found in 5804ms (ActiveRecord: 614.7ms)
-
-
-Started GET "/enquiries/2" for ::1 at 2016-09-02 16:35:59 +1000
-Processing by EnquiriesController#show as HTML
-  Parameters: {"id"=>"2"}
-  [1m[36mEnquiry Load (122.0ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
-  Rendering enquiries/show.html.erb within layouts/application
-  Rendered enquiries/show.html.erb within layouts/application (1.9ms)
-Completed 200 OK in 346ms (Views: 205.8ms | ActiveRecord: 122.0ms)
-
-
-Started GET "/enquiries" for ::1 at 2016-09-02 16:36:08 +1000
-Processing by EnquiriesController#index as HTML
-  Rendering enquiries/index.html.erb within layouts/application
-  [1m[36mEnquiry Load (45.6ms)[0m  [1m[34mSELECT "enquiries".* FROM "enquiries"[0m
-  Rendered enquiries/index.html.erb within layouts/application (49.1ms)
-Completed 200 OK in 166ms (Views: 68.6ms | ActiveRecord: 45.6ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:36:14 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.8ms)
-Completed 200 OK in 132ms (Views: 122.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:38:33 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.4ms)
-Completed 200 OK in 6364ms (Views: 6361.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 16:38:45 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (293.5ms)
-  Rendered enquiries/new.html.erb within layouts/application (296.3ms)
-Completed 500 Internal Server Error in 325ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x007fd25c8d27d8>:0x007fd2644e3278>):
-    10: 
-    11:   <div class="form-actions">
-    12:     <%= f.button :submit %>
-    13:     <%= link_to 'Home', home_path %>
-    14:   </div>
-    15: <% end %>
-  
-app/views/enquiries/_form.html.erb:13:in `block in _app_views_enquiries__form_html_erb__2462914918250403121_70270819863680'
-app/views/enquiries/_form.html.erb:1:in `_app_views_enquiries__form_html_erb__2462914918250403121_70270819863680'
-app/views/enquiries/new.html.erb:3:in `_app_views_enquiries_new_html_erb__3609172367818485146_70270801354500'
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.6ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
-  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
-  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (92.6ms)
-Started GET "/enquiries/new" for ::1 at 2016-09-02 16:39:54 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (17.4ms)
-  Rendered enquiries/new.html.erb within layouts/application (35.1ms)
-Completed 200 OK in 306ms (Views: 277.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:39:56 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.9ms)
-Completed 200 OK in 77ms (Views: 73.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 16:40:01 +1000
-Processing by EnquiriesController#new as HTML
-  Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (13.1ms)
-  Rendered enquiries/new.html.erb within layouts/application (25.8ms)
-Completed 200 OK in 124ms (Views: 119.7ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enquiries" for ::1 at 2016-09-02 16:40:15 +1000
-Processing by EnquiriesController#create as HTML
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U6+x02FFz/mo+5sxZ3oIkQbJRUdAacYulZopT4XYZIQsLiLK6hIFr6jMjcPBPhhjm6KpAKYYLQ1n02Ma7bxaew==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"trit", "message"=>"tirt\r\n"}, "commit"=>"Create Enquiry"}
-  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
-  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "trit"], ["message", "tirt\r\n"], ["created_at", 2016-09-02 06:40:15 UTC], ["updated_at", 2016-09-02 06:40:15 UTC]]
-  [1m[35m (39.9ms)[0m  [1m[35mCOMMIT[0m
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PR2CBgEgvE3Osh9hs6r+liLG3nCedIGXGnse9/iKvNBCnBEfind2G86FCZMV7u5kv60yN3gFarToMlSikO6CLw==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (25.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-02 12:35:09 UTC], ["updated_at", 2016-09-02 12:35:09 UTC]]
+  [1m[35m (8.3ms)[0m  [1m[35mCOMMIT[0m
   Rendering enquiry_mailer/response.html.erb within layouts/mailer
   Rendered enquiry_mailer/response.html.erb within layouts/mailer (1.8ms)
   Rendering enquiry_mailer/response.text.erb within layouts/mailer
-  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
-EnquiryMailer#response: processed outbound mail in 169.7ms
-Sent mail to trit (4551.2ms)
-Date: Fri, 02 Sep 2016 16:40:15 +1000
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.6ms)
+EnquiryMailer#response: processed outbound mail in 446.2ms
+Sent mail to trit (5426.7ms)
+Date: Fri, 02 Sep 2016 22:35:10 +1000
 From: tristan@tristansouthwell.com
 To: trit
-Message-ID: <57c91ecf5e664_28643fe92d82b92c858aa@Tristans-MacBook-Pro.local.mail>
+Message-ID: <57c971fe9bf72_37eb3ff4aa42a05c917fe@Tristans-MacBook-Pro.local.mail>
 Subject: Thanks for your enquiry
 Mime-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="--==_mimepart_57c91ecf5cf7d_28643fe92d82b92c85733";
+ boundary="--==_mimepart_57c971fe9799f_37eb3ff4aa42a05c91626";
  charset=UTF-8
 Content-Transfer-Encoding: 7bit
 
 
-----==_mimepart_57c91ecf5cf7d_28643fe92d82b92c85733
+----==_mimepart_57c971fe9799f_37eb3ff4aa42a05c91626
 Content-Type: text/plain;
  charset=UTF-8
 Content-Transfer-Encoding: 7bit
@@ -8360,7 +7337,7 @@ Enquiry#response
 , find me in app/views/enquiry_mailer/response.text.erb
 
 
-----==_mimepart_57c91ecf5cf7d_28643fe92d82b92c85733
+----==_mimepart_57c971fe9799f_37eb3ff4aa42a05c91626
 Content-Type: text/html;
  charset=UTF-8
 Content-Transfer-Encoding: 7bit
@@ -8378,33 +7355,35 @@ Content-Transfer-Encoding: 7bit
     <h1>Enquiry#response</h1>
 
 <p>
+
 Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
 </p>
 
   </body>
 </html>
 
-----==_mimepart_57c91ecf5cf7d_28643fe92d82b92c85733--
+----==_mimepart_57c971fe9799f_37eb3ff4aa42a05c91626--
 
   Rendering enquiry_mailer/received.html.erb within layouts/mailer
-  Rendered enquiry_mailer/received.html.erb within layouts/mailer (1.0ms)
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.8ms)
   Rendering enquiry_mailer/received.text.erb within layouts/mailer
-  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
-EnquiryMailer#received: processed outbound mail in 102.7ms
-Sent mail to tristan@tristansouthwell.com (3959.2ms)
-Date: Fri, 02 Sep 2016 16:40:20 +1000
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#received: processed outbound mail in 112.6ms
+Sent mail to tristan@tristansouthwell.com (5413.6ms)
+Date: Fri, 02 Sep 2016 22:35:16 +1000
 From: tristan@tristansouthwell.com
 To: tristan@tristansouthwell.com
-Message-ID: <57c91ed4a119_28643fe92d82b92c860c7@Tristans-MacBook-Pro.local.mail>
+Message-ID: <57c972042881c_37eb3ff4aa42a05c9198e@Tristans-MacBook-Pro.local.mail>
 Subject: An enquiry has been receieved
 Mime-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="--==_mimepart_57c91ed48d99_28643fe92d82b92c85992";
+ boundary="--==_mimepart_57c972042663f_37eb3ff4aa42a05c91843";
  charset=UTF-8
 Content-Transfer-Encoding: 7bit
 
 
-----==_mimepart_57c91ed48d99_28643fe92d82b92c85992
+----==_mimepart_57c972042663f_37eb3ff4aa42a05c91843
 Content-Type: text/plain;
  charset=UTF-8
 Content-Transfer-Encoding: 7bit
@@ -8414,7 +7393,7 @@ Enquiry#received
 , find me in app/views/enquiry_mailer/received.text.erb
 
 
-----==_mimepart_57c91ed48d99_28643fe92d82b92c85992
+----==_mimepart_57c972042663f_37eb3ff4aa42a05c91843
 Content-Type: text/html;
  charset=UTF-8
 Content-Transfer-Encoding: 7bit
@@ -8429,7 +7408,8 @@ Content-Transfer-Encoding: 7bit
   </head>
 
   <body>
-    <p>
+    
+<p>
   <strong>Name:</strong>
   trit
 </p>
@@ -8441,59 +7421,1128 @@ Content-Transfer-Encoding: 7bit
 
 <p>
   <strong>Subject:</strong>
-  trit
+  test
 </p>
 
 <p>
   <strong>Message:</strong>
-  tirt
+  test
 
 </p>
 
   </body>
 </html>
 
-----==_mimepart_57c91ed48d99_28643fe92d82b92c85992--
+----==_mimepart_57c972042663f_37eb3ff4aa42a05c91843--
 
-Redirected to http://localhost:3000/enquiries/3
-Completed 302 Found in 8889ms (ActiveRecord: 41.5ms)
+Redirected to http://localhost:3000/enquiries/4
+Completed 302 Found in 11950ms (ActiveRecord: 34.0ms)
 
 
-Started GET "/enquiries/3" for ::1 at 2016-09-02 16:40:24 +1000
+Started GET "/enquiries/4" for ::1 at 2016-09-02 22:35:21 +1000
 Processing by EnquiriesController#show as HTML
-  Parameters: {"id"=>"3"}
-  [1m[36mEnquiry Load (154.8ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Parameters: {"id"=>"4"}
+  [1m[36mEnquiry Load (11.8ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
   Rendering enquiries/show.html.erb within layouts/application
-  Rendered enquiries/show.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 643ms (Views: 402.6ms | ActiveRecord: 154.8ms)
+  Rendered enquiries/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 950ms (Views: 720.4ms | ActiveRecord: 12.2ms)
 
 
-Started GET "/" for ::1 at 2016-09-02 16:40:40 +1000
+Started GET "/" for ::1 at 2016-09-02 22:35:34 +1000
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.4ms)
-Completed 200 OK in 177ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 320ms (Views: 315.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for ::1 at 2016-09-02 16:43:22 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (5.4ms)
-Completed 200 OK in 5531ms (Views: 5523.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for ::1 at 2016-09-02 16:43:36 +1000
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1.6ms)
-Completed 200 OK in 102ms (Views: 99.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/enquiries/new" for ::1 at 2016-09-02 16:46:44 +1000
+Started GET "/enquiries/new" for ::1 at 2016-09-02 22:35:42 +1000
 Processing by EnquiriesController#new as HTML
   Rendering enquiries/new.html.erb within layouts/application
-  Rendered enquiries/_form.html.erb (48.7ms)
-  Rendered enquiries/new.html.erb within layouts/application (77.2ms)
-Completed 200 OK in 440ms (Views: 427.0ms | ActiveRecord: 0.0ms)
+  Rendered enquiries/_form.html.erb (19.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 221ms (Views: 204.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-02 22:35:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 351ms (Views: 346.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-03 09:43:06 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (47.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 567ms (Views: 544.0ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-04 12:01:12 +1000
+Started GET "/" for ::1 at 2016-09-04 12:01:13 +1000
+  
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (172.1ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (174.2ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-04 12:10:37 +1000
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.1ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 09:38:56 +1000
+Started GET "/" for ::1 at 2016-09-06 09:38:57 +1000
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (202.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (208.3ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 09:44:49 +1000
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (208.6ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:00:16 +1000
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.6ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:04:58 +1000
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.8ms)
+Started GET "/" for ::1 at 2016-09-06 10:05:08 +1000
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.4ms)
+Started GET "/" for ::1 at 2016-09-06 10:05:09 +1000
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.9ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:07:54 +1000
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.8ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:09:14 +1000
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.9ms)
+Started GET "/" for ::1 at 2016-09-06 10:09:18 +1000
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.6ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:28:32 +1000
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.2ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:30:25 +1000
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.9ms)
+Started GET "/" for ::1 at 2016-09-06 10:30:57 +1000
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.2ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:31:13 +1000
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (126.7ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:33:21 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 12710ms (Views: 12673.8ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/rails_apps/portfolio2/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 10:37:44 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 3407ms (Views: 3373.0ms | ActiveRecord: 0.0ms)
 
 
