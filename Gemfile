@@ -9,6 +9,7 @@ gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'font-awesome-sass', '~> 4.6.2'
+gem 'pg'
 
 
 # Use Puma as the app server
@@ -51,7 +52,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 group :production do
-  gem 'pg'
+  # gem 'pg'
   gem 'rails_12factor'
 end
 
