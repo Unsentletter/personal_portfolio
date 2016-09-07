@@ -8582,3 +8582,3436 @@ Completed 200 OK in 3415ms (Views: 3388.9ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 3404ms (Views: 3391.1ms | ActiveRecord: 0.0ms)
 
 
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 14:01:40 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 3976ms (Views: 3947.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:04:05 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (280.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (283.9ms)
+Completed 200 OK in 441ms (Views: 422.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:04:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 88ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:04:17 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 78ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-06 14:04:28 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FKRw0G83Zj8xdUzyL/f2oEGkMTSHUj7ZSOyYItuSbtUMGSQ6iXlmFgOND1lOVmVwS2l/zIaxjcaihRpdpaMrAw==", "enquiry"=>{"name"=>"tit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (27.6ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "tit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-06 04:04:28 UTC], ["updated_at", 2016-09-06 04:04:28 UTC]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 269.8ms
+Sent mail to tit (5265.4ms)
+Date: Tue, 06 Sep 2016 14:04:29 +1000
+From: tristan@tristansouthwell.com
+To: tit
+Message-ID: <57ce404d1d384_1bca3ff854d0c230284@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce404d17173_1bca3ff854d0c2301e4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce404d17173_1bca3ff854d0c2301e4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57ce404d17173_1bca3ff854d0c2301e4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi tit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce404d17173_1bca3ff854d0c2301e4--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#received: processed outbound mail in 80.4ms
+Sent mail to tristan@tristansouthwell.com (4192.0ms)
+Date: Tue, 06 Sep 2016 14:04:34 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57ce40526c8bd_1bca3ff854d0c2304d0@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce40526bcff_1bca3ff854d0c2303c8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce40526bcff_1bca3ff854d0c2303c8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57ce40526bcff_1bca3ff854d0c2303c8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  tit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce40526bcff_1bca3ff854d0c2303c8--
+
+Redirected to http://localhost:3000/enquiries/1
+Completed 302 Found in 10529ms (ActiveRecord: 29.5ms)
+
+
+Started GET "/enquiries/1" for ::1 at 2016-09-06 14:04:38 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 111ms (Views: 52.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:04:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 66ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:07:20 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3868ms (Views: 3865.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:07:27 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.5ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 103ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:07:57 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 2623ms (Views: 2620.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:09:10 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:12:12 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 67ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:12:13 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:12:17 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 68ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:12:27 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.9ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:12:32 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (12.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 79ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:12:44 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.5ms)
+  Rendered enquiries/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 82ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:12:55 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.9ms)
+  Rendered enquiries/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 80ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:13:51 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 2692ms (Views: 2689.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:14:00 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 2579ms (Views: 2576.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:14:10 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 77ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:23:05 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (21.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 3051ms (Views: 3047.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:32:29 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:33:47 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 72ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:33:54 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 99ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:34:06 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:34:52 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 70ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:00 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.8ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 73ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:05 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 75ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:07 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.8ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 79ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:10 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 66ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:14 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.9ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 63ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:31 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 54ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:35 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.5ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:36 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 78ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:35:57 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 59ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:36:44 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 68ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:36:57 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.8ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 79ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:37:02 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 62ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:37:07 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 71ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:37:10 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:37:16 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 69ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:37:45 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 70ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:37:59 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.9ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 62ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:38:15 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 63ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:38:40 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (14.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:38:41 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:38:47 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 58ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:39:01 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 70ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:39:24 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 2739ms (Views: 2737.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:39:36 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.8ms)
+  Rendered enquiries/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 61ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:39:45 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 2830ms (Views: 2827.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:41:22 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 61ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:41:26 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 75ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:41:34 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:41:39 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 66ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:44:14 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 118ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:44:40 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (6.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 73ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:44:45 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 75ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:44:48 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (13.9ms)
+  Rendered enquiries/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 100ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-06 14:44:55 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u9TxJWG8dkMkoM5vCjtbF4304kE8YYK+q6TbmPDM98+jaaXPh/J2ahZYjcRrmsjHhzmsuT2CMaFBzVnnjv2yGQ==", "enquiry"=>{"name"=>"trit", "email"=>"", "subject"=>"", "message"=>""}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", ""], ["subject", ""], ["message", ""], ["created_at", 2016-09-06 04:44:55 UTC], ["updated_at", 2016-09-06 04:44:55 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 49.7ms
+Sent mail to trit (4514.8ms)
+Date: Tue, 06 Sep 2016 14:44:55 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57ce49c72e9d0_1bca3ff854d0c668654@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce49c72dae8_1bca3ff854d0c6685cf";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce49c72dae8_1bca3ff854d0c6685cf
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57ce49c72dae8_1bca3ff854d0c6685cf
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce49c72dae8_1bca3ff854d0c6685cf--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.7ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#received: processed outbound mail in 71.9ms
+Sent mail to tristan@tristansouthwell.com (4198.5ms)
+Date: Tue, 06 Sep 2016 14:44:59 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57ce49cbbe0c0_1bca3ff854d0c6688be@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce49cbbd3e6_1bca3ff854d0c66876f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce49cbbd3e6_1bca3ff854d0c66876f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57ce49cbbd3e6_1bca3ff854d0c66876f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  
+</p>
+
+<p>
+  <strong>Message:</strong>
+  
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce49cbbd3e6_1bca3ff854d0c66876f--
+
+Redirected to http://localhost:3000/enquiries/2
+Completed 302 Found in 8845ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:45:10 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 106ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:45:13 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (15.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 91ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-06 14:45:21 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XtZYh8oFG0ZytjRpWhIJS/V6wIFMnbUOmiUzt+CBF1RGawxtLEsbb0BOd8I7s5qb/7eOeU1+BhFwTLHInrBSgg==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-06 04:45:21 UTC], ["updated_at", 2016-09-06 04:45:21 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#response: processed outbound mail in 74.1ms
+Sent mail to trit (5192.4ms)
+Date: Tue, 06 Sep 2016 14:45:21 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57ce49e192eea_1bca3ff854d0ce4c105b@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce49e1922a7_1bca3ff854d0ce4c9ef";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce49e1922a7_1bca3ff854d0ce4c9ef
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57ce49e1922a7_1bca3ff854d0ce4c9ef
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce49e1922a7_1bca3ff854d0ce4c9ef--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#received: processed outbound mail in 26.2ms
+Sent mail to tristan@tristansouthwell.com (4318.9ms)
+Date: Tue, 06 Sep 2016 14:45:26 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57ce49e6c88e1_1bca3ff854d0ce4c1255@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce49e6c7d69_1bca3ff854d0ce4c116f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce49e6c7d69_1bca3ff854d0ce4c116f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57ce49e6c7d69_1bca3ff854d0ce4c116f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce49e6c7d69_1bca3ff854d0ce4c116f--
+
+Redirected to http://localhost:3000/enquiries/3
+Completed 302 Found in 9619ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/enquiries/3" for ::1 at 2016-09-06 14:45:31 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 79ms (Views: 60.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/enquiries/3/edit" for ::1 at 2016-09-06 14:46:00 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.6ms)
+  Rendered enquiries/edit.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 211ms (Views: 178.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/enquiries/3" for ::1 at 2016-09-06 14:46:17 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEnquiry Load (0.4ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 127ms (Views: 103.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/enquiries/3/edit" for ::1 at 2016-09-06 14:46:26 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEnquiry Load (0.6ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (12.9ms)
+  Rendered enquiries/edit.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 80ms (Views: 73.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/enquiries/3/edit" for ::1 at 2016-09-06 14:46:28 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEnquiry Load (0.1ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.4ms)
+  Rendered enquiries/edit.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 64ms (Views: 61.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/enquiries/3/edit" for ::1 at 2016-09-06 14:46:36 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.3ms)
+  Rendered enquiries/edit.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 68ms (Views: 64.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:46:39 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 91ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:46:41 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (11.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 69ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-06 14:46:55 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d3AiHbH14KEVYoE1wosOrp0O6YXlR+JDsePQlTIJcmJvzXb3V7vgiCeawp6jKp1+l8OnfeSkUVxbilLqTDg3tA==", "enquiry"=>{"name"=>"", "email"=>"", "subject"=>"", "message"=>""}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["email", ""], ["subject", ""], ["message", ""], ["created_at", 2016-09-06 04:46:55 UTC], ["updated_at", 2016-09-06 04:46:55 UTC]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 68.7ms
+Sent mail to  (2.2ms)
+Date: Tue, 06 Sep 2016 14:46:55 +1000
+From: tristan@tristansouthwell.com
+Message-ID: <57ce4a3f148ed_1bca3ff854d0c8701440@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce4a3f13e6e_1bca3ff854d0c87013b5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce4a3f13e6e_1bca3ff854d0c87013b5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57ce4a3f13e6e_1bca3ff854d0c87013b5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi , thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce4a3f13e6e_1bca3ff854d0c87013b5--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.8ms)
+EnquiryMailer#received: processed outbound mail in 23.2ms
+Sent mail to tristan@tristansouthwell.com (4174.0ms)
+Date: Tue, 06 Sep 2016 14:46:55 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57ce4a3f1ad7c_1bca3ff854d0c870162@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce4a3f1a44c_1bca3ff854d0c87015fb";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce4a3f1a44c_1bca3ff854d0c87015fb
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57ce4a3f1a44c_1bca3ff854d0c87015fb
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  
+</p>
+
+<p>
+  <strong>Email:</strong>
+  
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  
+</p>
+
+<p>
+  <strong>Message:</strong>
+  
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce4a3f1a44c_1bca3ff854d0c87015fb--
+
+Redirected to http://localhost:3000/enquiries/4
+Completed 302 Found in 4276ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/enquiries/4" for ::1 at 2016-09-06 14:46:59 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 44.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/enquiries/4/edit" for ::1 at 2016-09-06 14:47:01 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEnquiry Load (0.1ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (13.3ms)
+  Rendered enquiries/edit.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 72ms (Views: 68.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:47:03 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:47:06 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (12.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 71ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-06 14:47:09 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MSiS0JjH3ZJw6w4H6QBVIdEixQa5EDoPxVq89k3cifEefahpC0fX3s775N+BZKEjYnF7BsH8/fVfOiMpwY38Q==", "enquiry"=>{"name"=>"", "email"=>"", "subject"=>"", "message"=>""}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["email", ""], ["subject", ""], ["message", ""], ["created_at", 2016-09-06 04:47:09 UTC], ["updated_at", 2016-09-06 04:47:09 UTC]]
+  [1m[35m (106.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 57.3ms
+Sent mail to  (2.0ms)
+Date: Tue, 06 Sep 2016 14:47:09 +1000
+From: tristan@tristansouthwell.com
+Message-ID: <57ce4a4d30008_1bca3ff854d0c6681840@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce4a4d2f62e_1bca3ff854d0c66817f1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce4a4d2f62e_1bca3ff854d0c66817f1
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57ce4a4d2f62e_1bca3ff854d0c66817f1
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi , thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce4a4d2f62e_1bca3ff854d0c66817f1--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#received: processed outbound mail in 22.6ms
+Sent mail to tristan@tristansouthwell.com (4152.2ms)
+Date: Tue, 06 Sep 2016 14:47:09 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57ce4a4d363ae_1bca3ff854d0c6682022@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce4a4d358e9_1bca3ff854d0c6681996";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce4a4d358e9_1bca3ff854d0c6681996
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57ce4a4d358e9_1bca3ff854d0c6681996
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  
+</p>
+
+<p>
+  <strong>Email:</strong>
+  
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  
+</p>
+
+<p>
+  <strong>Message:</strong>
+  
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce4a4d358e9_1bca3ff854d0c6681996--
+
+Redirected to http://localhost:3000/enquiries/5
+Completed 302 Found in 4350ms (ActiveRecord: 107.3ms)
+
+
+Started GET "/enquiries/5" for ::1 at 2016-09-06 14:47:13 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 61ms (Views: 57.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/enquiries/5" for ::1 at 2016-09-06 14:47:26 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mEnquiry Load (0.1ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/enquiries/5" for ::1 at 2016-09-06 14:47:44 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 56ms (Views: 52.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 14:53:58 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 150ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:54:01 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (15.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 75ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:59:21 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (27.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 264ms (Views: 259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 14:59:34 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.8ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 72ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 15:00:56 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-06 15:09:29 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mUC6ZQiqSdJz61EqEqMxHaSOxn3IdXGIS+zrOlM9lCGB/e6P7uRJ+0ETEoFzAqLNrkOIhcmWwpehhWlFLQzR9w==", "enquiry"=>{"name"=>"", "email"=>"", "subject"=>"", "message"=>""}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["email", ""], ["subject", ""], ["message", ""], ["created_at", 2016-09-06 05:09:29 UTC], ["updated_at", 2016-09-06 05:09:29 UTC]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#response: processed outbound mail in 38.8ms
+Sent mail to  (3.2ms)
+Date: Tue, 06 Sep 2016 15:09:29 +1000
+From: tristan@tristansouthwell.com
+Message-ID: <57ce4f892d23b_1bca3ff854d0c668222b@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce4f892c1ca_1bca3ff854d0c6682198";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce4f892c1ca_1bca3ff854d0c6682198
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57ce4f892c1ca_1bca3ff854d0c6682198
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi , thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce4f892c1ca_1bca3ff854d0c6682198--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.8ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#received: processed outbound mail in 26.8ms
+Sent mail to tristan@tristansouthwell.com (4611.7ms)
+Date: Tue, 06 Sep 2016 15:09:29 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57ce4f89349a6_1bca3ff854d0c6682430@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57ce4f8933832_1bca3ff854d0c66823f0";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57ce4f8933832_1bca3ff854d0c66823f0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57ce4f8933832_1bca3ff854d0c66823f0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  
+</p>
+
+<p>
+  <strong>Email:</strong>
+  
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  
+</p>
+
+<p>
+  <strong>Message:</strong>
+  
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57ce4f8933832_1bca3ff854d0c66823f0--
+
+Redirected to http://localhost:3000/enquiries/6
+Completed 302 Found in 4697ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/enquiries/6" for ::1 at 2016-09-06 15:09:33 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 70ms (Views: 65.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/enquiries/6/edit" for ::1 at 2016-09-06 15:09:36 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (15.0ms)
+  Rendered enquiries/edit.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 91ms (Views: 87.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:09:40 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 71ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:12:56 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 210ms (Views: 206.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:14:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 3461ms (Views: 3456.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:19:02 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 327ms (Views: 320.5ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-06 15:31:59 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (14.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 7950ms (Views: 7927.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:33:04 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3143ms (Views: 3141.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:33:25 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3097ms (Views: 3089.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:34:04 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 5004ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  display: flex": expected ";", was ": 5 0 100%;"):
+    21:     <meta name="twitter:image" content="{{http://res.cloudinary.com/ddpizrmrj/image/upload/v1473131395/FullSizeRender_copy_lnyney.png}}">
+    22: 
+    23:     <%= csrf_meta_tags %>
+    24:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    25:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    26:   </head>
+    27: 
+  
+app/assets/stylesheets/media.scss:16
+app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__2089480301480912918_70180566009240'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.5ms)
+Started GET "/" for ::1 at 2016-09-06 15:34:32 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2849ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  display: flex": expected ";", was ": 0 0 0;"):
+    21:     <meta name="twitter:image" content="{{http://res.cloudinary.com/ddpizrmrj/image/upload/v1473131395/FullSizeRender_copy_lnyney.png}}">
+    22: 
+    23:     <%= csrf_meta_tags %>
+    24:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    25:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    26:   </head>
+    27: 
+  
+app/assets/stylesheets/media.scss:16
+app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__2089480301480912918_70180621720660'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.7ms)
+Started GET "/" for ::1 at 2016-09-06 15:46:53 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 3776ms (Views: 3766.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:48:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 5262ms (Views: 5251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:49:15 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4849ms (Views: 4846.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:50:39 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3577ms (Views: 3573.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 15:52:23 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 3065ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  flex: none ": expected ";", was "| [ 1 0 || auto ];"):
+    21:     <meta name="twitter:image" content="{{http://res.cloudinary.com/ddpizrmrj/image/upload/v1473131395/FullSizeRender_copy_lnyney.png}}">
+    22: 
+    23:     <%= csrf_meta_tags %>
+    24:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    25:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    26:   </head>
+    27: 
+  
+app/assets/stylesheets/media.scss:18
+app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__2089480301480912918_70180564263700'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.4ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (88.2ms)
+Started GET "/" for ::1 at 2016-09-06 15:53:33 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 2924ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  flex: ": expected expression (e.g. 1px, bold), was "[ <1> <0>? || <..."):
+    21:     <meta name="twitter:image" content="{{http://res.cloudinary.com/ddpizrmrj/image/upload/v1473131395/FullSizeRender_copy_lnyney.png}}">
+    22: 
+    23:     <%= csrf_meta_tags %>
+    24:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    25:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    26:   </head>
+    27: 
+  
+app/assets/stylesheets/media.scss:18
+app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__2089480301480912918_70180638053160'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.5ms)
+Started GET "/" for ::1 at 2016-09-06 16:15:22 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 5571ms (Views: 5560.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 16:18:07 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 234ms (Views: 231.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 16:19:20 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 3875ms (Views: 3868.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 16:21:25 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 255ms (Views: 252.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 19:19:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 4873ms (Views: 4859.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 19:19:51 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 278ms (Views: 276.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 22:18:14 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (777.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (796.7ms)
+Completed 200 OK in 1252ms (Views: 1164.5ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-06 22:18:25 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 225ms (Views: 182.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-06 22:18:29 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (14.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 112ms (Views: 98.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/enquiries/new" for ::1 at 2016-09-07 07:24:57 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (260.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (287.4ms)
+Started GET "/" for ::1 at 2016-09-07 07:25:00 +1000
+Completed 200 OK in 3392ms (Views: 3345.3ms | ActiveRecord: 0.6ms)
+
+
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 94ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 07:44:49 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 1360ms (Views: 1352.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 07:48:04 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 533ms (Views: 528.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 07:50:27 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1214ms (Views: 1211.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 07:50:37 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (11.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 579ms (Views: 534.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 07:50:47 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 120ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 08:14:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 357ms (Views: 340.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 08:15:51 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3153ms (Views: 3150.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 08:19:19 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 258ms (Views: 255.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 08:21:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3048ms (Views: 3045.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 08:22:55 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3115ms (Views: 3112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 08:23:34 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3337ms (Views: 3334.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 09:09:02 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 359ms (Views: 354.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 09:18:10 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 5314ms (Views: 5305.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 09:37:26 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (43.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 942ms (Views: 898.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 09:39:51 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W2p5K3p/LPAfqH5tuFp5V7/BavzZhIgXP8ql9Ya198VD1y3BnDEs2S1QPcbZ++qHtQwkBNhnOwjVoyeK+ISyEw==", "enquiry"=>{"name"=>"", "email"=>"", "subject"=>"", "message"=>""}, "commit"=>"Create Enquiry"}
+  [1m[35m (26.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (15.7ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["email", ""], ["subject", ""], ["message", ""], ["created_at", 2016-09-06 23:39:51 UTC], ["updated_at", 2016-09-06 23:39:51 UTC]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (1.7ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (4.6ms)
+EnquiryMailer#response: processed outbound mail in 706.2ms
+Sent mail to  (40.1ms)
+Date: Wed, 07 Sep 2016 09:39:52 +1000
+From: tristan@tristansouthwell.com
+Message-ID: <57cf53c8e7cb3_1f9d3ff07e0fd01c9542c@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf53c8e1d62_1f9d3ff07e0fd01c953b5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf53c8e1d62_1f9d3ff07e0fd01c953b5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf53c8e1d62_1f9d3ff07e0fd01c953b5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi , thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf53c8e1d62_1f9d3ff07e0fd01c953b5--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#received: processed outbound mail in 39.5ms
+Sent mail to tristan@tristansouthwell.com (4134.1ms)
+Date: Wed, 07 Sep 2016 09:39:53 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf53c92268_1f9d3ff07e0fd01c95696@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf53c916bc_1f9d3ff07e0fd01c955a2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf53c916bc_1f9d3ff07e0fd01c955a2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf53c916bc_1f9d3ff07e0fd01c955a2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  
+</p>
+
+<p>
+  <strong>Email:</strong>
+  
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  
+</p>
+
+<p>
+  <strong>Message:</strong>
+  
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf53c916bc_1f9d3ff07e0fd01c955a2--
+
+Redirected to http://localhost:3000/enquiries/7
+Completed 302 Found in 5693ms (ActiveRecord: 44.2ms)
+
+
+Started GET "/enquiries/7" for ::1 at 2016-09-07 09:39:57 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mEnquiry Load (0.5ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 314ms (Views: 247.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 10:03:32 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 503ms (Views: 466.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 10:04:29 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (23.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (45.1ms)
+Completed 200 OK in 302ms (Views: 277.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 10:04:38 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wOESAk2JoAhw0+x97+WuPwAtz1u+7AHPCTTEf7nXfYrYXEboq8egIUIrr9aORD3vCuCBo78PstDjXUYAx+Y4XA==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (1.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (19.3ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-07 00:04:38 UTC], ["updated_at", 2016-09-07 00:04:38 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (1.1ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (1.1ms)
+EnquiryMailer#response: processed outbound mail in 58.4ms
+Sent mail to trit (3147.9ms)
+Date: Wed, 07 Sep 2016 10:04:39 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57cf5997fbf6_1f9d3ff07e0f543495868@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf5997e4fe_1f9d3ff07e0f543495731";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf5997e4fe_1f9d3ff07e0f543495731
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf5997e4fe_1f9d3ff07e0f543495731
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf5997e4fe_1f9d3ff07e0f543495731--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.6ms)
+EnquiryMailer#received: processed outbound mail in 27.8ms
+Sent mail to tristan@tristansouthwell.com (4085.8ms)
+Date: Wed, 07 Sep 2016 10:04:42 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf599a3ae14_1f9d3ff07e0f5434960d2@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf599a39aae_1f9d3ff07e0f543495960";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf599a39aae_1f9d3ff07e0f543495960
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf599a39aae_1f9d3ff07e0f543495960
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf599a39aae_1f9d3ff07e0f543495960--
+
+Redirected to http://localhost:3000/enquiries/8
+Completed 302 Found in 7360ms (ActiveRecord: 21.9ms)
+
+
+Started GET "/enquiries/8" for ::1 at 2016-09-07 10:04:46 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 74ms (Views: 69.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 10:05:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 308ms (Views: 303.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-07 10:15:19 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (16.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 3451ms (Views: 3427.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 10:15:28 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (268.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (289.8ms)
+Completed 200 OK in 395ms (Views: 360.6ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 10:15:38 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yKX8Mm0rppynebGP2GLtgpOrIw1lVGjvx/rsgP9pznfQGKjYi2WmtZWB8iS5w35SmWZt9WS32/Atk27/gViLoQ==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"trit", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (19.1ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "trit"], ["message", "test"], ["created_at", 2016-09-07 00:15:38 UTC], ["updated_at", 2016-09-07 00:15:38 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#response: processed outbound mail in 294.7ms
+Sent mail to trit (3376.5ms)
+Date: Wed, 07 Sep 2016 10:15:38 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57cf5c2ab4e2d_21463fcec1813fd812057@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf5c2aaaa76_21463fcec1813fd81191b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf5c2aaaa76_21463fcec1813fd81191b
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf5c2aaaa76_21463fcec1813fd81191b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf5c2aaaa76_21463fcec1813fd81191b--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#received: processed outbound mail in 69.5ms
+Sent mail to tristan@tristansouthwell.com (3520.4ms)
+Date: Wed, 07 Sep 2016 10:15:42 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf5c2e249c8_21463fcec1813fd81227f@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf5c2e23a87_21463fcec1813fd812151";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf5c2e23a87_21463fcec1813fd812151
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf5c2e23a87_21463fcec1813fd812151
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf5c2e23a87_21463fcec1813fd812151--
+
+Redirected to http://localhost:3000/enquiries/9
+Completed 302 Found in 7735ms (ActiveRecord: 20.7ms)
+
+
+Started GET "/enquiries/9" for ::1 at 2016-09-07 10:15:45 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 168ms (Views: 53.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 10:15:53 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 71ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 10:20:58 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 437ms (Views: 428.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 10:21:05 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (18.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 146ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 10:21:15 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xpV6AhrGZbf4MYKFJcGteKygTIjBfLtlwuo+S8PcVkHeKC7o/IhlnsrJwS5EYD6opm0CcMCfCHoog7w0ve0Tlw==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (59.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-07 00:21:15 UTC], ["updated_at", 2016-09-07 00:21:15 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#response: processed outbound mail in 43.4ms
+Sent mail to trit (3621.8ms)
+Date: Wed, 07 Sep 2016 10:21:15 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57cf5d7bb6a68_21463fcec181b33c124bc@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf5d7bb5800_21463fcec181b33c1232d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf5d7bb5800_21463fcec181b33c1232d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf5d7bb5800_21463fcec181b33c1232d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf5d7bb5800_21463fcec181b33c1232d--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.8ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.6ms)
+EnquiryMailer#received: processed outbound mail in 78.2ms
+Sent mail to tristan@tristansouthwell.com (3054.7ms)
+Date: Wed, 07 Sep 2016 10:21:19 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf5d7f6d91a_21463fcec181b33c1264c@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf5d7f6c5c7_21463fcec181b33c125ef";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf5d7f6c5c7_21463fcec181b33c125ef
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf5d7f6c5c7_21463fcec181b33c125ef
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf5d7f6c5c7_21463fcec181b33c125ef--
+
+Redirected to http://localhost:3000/enquiries/10
+Completed 302 Found in 6876ms (ActiveRecord: 61.3ms)
+
+
+Started GET "/enquiries/10" for ::1 at 2016-09-07 10:21:22 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 73ms (Views: 70.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/enquiries/10/edit" for ::1 at 2016-09-07 10:21:25 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (7.7ms)
+  Rendered enquiries/edit.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 123ms (Views: 57.5ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/enquiries/10" for ::1 at 2016-09-07 10:21:29 +1000
+Processing by EnquiriesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J9YJVhg1Joqv2TrPbl5UgQW93gOxlDEqvYgRg4RjOc0/a128/nsmo50heWQP/8dRD3CQ+7B3gjVX4ZP8+lJ8Gw==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test2", "message"=>"test"}, "commit"=>"Update Enquiry", "id"=>"10"}
+  [1m[36mEnquiry Load (0.8ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "enquiries" SET "subject" = ?, "updated_at" = ? WHERE "enquiries"."id" = ?[0m  [["subject", "test2"], ["updated_at", 2016-09-07 00:21:29 UTC], ["id", 10]]
+  [1m[35m (11.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/enquiries/10
+Completed 302 Found in 33ms (ActiveRecord: 13.1ms)
+
+
+Started GET "/enquiries/10" for ::1 at 2016-09-07 10:21:29 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 60.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 10:21:33 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 64ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 11:36:56 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (32.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 396ms (Views: 364.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 11:36:59 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 216ms (Views: 212.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 11:37:00 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 91ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 11:40:12 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 6723ms (Views: 6715.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 11:42:12 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 563ms (Views: 543.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 11:43:00 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 169ms (Views: 165.5ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-07 13:48:17 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (12.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 3085ms (Views: 3062.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 13:48:26 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (415.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (426.7ms)
+Completed 200 OK in 535ms (Views: 501.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 13:48:49 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tw2bdQOQD6yzhuhvRGjGzc1yVA/iG/ycNchAL8Cvd7+vsM+f5d4PhYF+q8QlyVUdx78a9+P4T4PfocJQvp4yaQ==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (31.3ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-07 03:48:49 UTC], ["updated_at", 2016-09-07 03:48:49 UTC]]
+  [1m[35m (18.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#response: processed outbound mail in 368.2ms
+Sent mail to trit (3284.8ms)
+Date: Wed, 07 Sep 2016 13:48:50 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57cf8e229bc9_241d3fe3bc8d01508909b@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8e22399e_241d3fe3bc8d0150889c7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8e22399e_241d3fe3bc8d0150889c7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf8e22399e_241d3fe3bc8d0150889c7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8e22399e_241d3fe3bc8d0150889c7--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#received: processed outbound mail in 51.0ms
+Sent mail to tristan@tristansouthwell.com (3294.2ms)
+Date: Wed, 07 Sep 2016 13:48:53 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf8e25568f4_241d3fe3bc8d01508927e@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8e2555e90_241d3fe3bc8d015089128";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8e2555e90_241d3fe3bc8d015089128
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf8e2555e90_241d3fe3bc8d015089128
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8e2555e90_241d3fe3bc8d015089128--
+
+Redirected to http://localhost:3000/enquiries/11
+Completed 302 Found in 7571ms (ActiveRecord: 50.5ms)
+
+
+Started GET "/enquiries/11" for ::1 at 2016-09-07 13:48:56 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mEnquiry Load (0.4ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 238ms (Views: 158.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/enquiries/11" for ::1 at 2016-09-07 13:50:27 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mEnquiry Load (0.4ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 260ms (Views: 257.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 13:50:30 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 75ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 13:50:31 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 13:50:34 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (8.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 115ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 13:50:43 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+neCkIvlXwXkBVGR2mNaIztk6k8QOo3VHdzQb04JdbziytZ6batfLNb9Ejq7wsnzMamktxHZPsr3tVIQMDgwag==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-07 03:50:43 UTC], ["updated_at", 2016-09-07 03:50:43 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 51.9ms
+Sent mail to trit (3097.2ms)
+Date: Wed, 07 Sep 2016 13:50:43 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57cf8e9358328_241d3fe3bc8c9e90894a3@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8e9357771_241d3fe3bc8c9e9089368";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8e9357771_241d3fe3bc8c9e9089368
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf8e9357771_241d3fe3bc8c9e9089368
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8e9357771_241d3fe3bc8c9e9089368--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#received: processed outbound mail in 36.8ms
+Sent mail to tristan@tristansouthwell.com (2993.8ms)
+Date: Wed, 07 Sep 2016 13:50:46 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf8e968368f_241d3fe3bc8c9e9089663@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8e9682b15_241d3fe3bc8c9e90895fd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8e9682b15_241d3fe3bc8c9e90895fd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf8e9682b15_241d3fe3bc8c9e90895fd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8e9682b15_241d3fe3bc8c9e90895fd--
+
+Redirected to http://localhost:3000/enquiries/12
+Completed 302 Found in 6228ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/enquiries/12" for ::1 at 2016-09-07 13:50:49 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 13:50:51 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 61ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 13:51:55 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 270ms (Views: 267.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 13:51:59 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (18.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 129ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 13:52:11 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O+Y5Nzg2EuDzbbFBLjaNSfvi+BfHuckL3QejJ1m2SIAjW23d3ngSycGV8upPlx6Z8S+278ZaehQ3biFYJ4cNVg==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"trit", "message"=>"tir"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (16.0ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "trit"], ["message", "tir"], ["created_at", 2016-09-07 03:52:11 UTC], ["updated_at", 2016-09-07 03:52:11 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#response: processed outbound mail in 54.5ms
+Sent mail to trit (3523.8ms)
+Date: Wed, 07 Sep 2016 13:52:11 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57cf8eeb48a78_241d3fe3bc8d0498898e9@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8eeb47dd8_241d3fe3bc8d0498897a8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8eeb47dd8_241d3fe3bc8d0498897a8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf8eeb47dd8_241d3fe3bc8d0498897a8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8eeb47dd8_241d3fe3bc8d0498897a8--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.7ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#received: processed outbound mail in 30.7ms
+Sent mail to tristan@tristansouthwell.com (3326.1ms)
+Date: Wed, 07 Sep 2016 13:52:14 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf8eeed0559_241d3fe3bc8d0498900c9@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8eeecf781_241d3fe3bc8d0498899c7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8eeecf781_241d3fe3bc8d0498899c7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf8eeecf781_241d3fe3bc8d0498899c7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Message:</strong>
+  tir
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8eeecf781_241d3fe3bc8d0498899c7--
+
+Redirected to http://localhost:3000/enquiries/13
+Completed 302 Found in 6960ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/enquiries/13" for ::1 at 2016-09-07 13:52:18 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mEnquiry Load (0.1ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 13:52:20 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 75ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-07 13:52:50 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 3617ms (Views: 3595.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 13:52:57 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (237.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (248.8ms)
+Completed 200 OK in 328ms (Views: 297.7ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 13:53:06 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vR7S1vA1RPkVTBWZzLfHmFh0HKUSHPC8DWcIPij4Lv6lo4Y8FntE0Ce0VjKtFlRIUrlSXRP/Q6PnDopBVslrKA==", "enquiry"=>{"name"=>"rtit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "rtit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-07 03:53:06 UTC], ["updated_at", 2016-09-07 03:53:06 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#response: processed outbound mail in 258.9ms
+Sent mail to rtit (3264.7ms)
+Date: Wed, 07 Sep 2016 13:53:07 +1000
+From: tristan@tristansouthwell.com
+To: rtit
+Message-ID: <57cf8f239c2d3_243d3ffadc4f542c279b@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8f2398fbe_243d3ffadc4f542c27896";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8f2398fbe_243d3ffadc4f542c27896
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf8f2398fbe_243d3ffadc4f542c27896
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi rtit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8f2398fbe_243d3ffadc4f542c27896--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#received: processed outbound mail in 71.3ms
+Sent mail to tristan@tristansouthwell.com (3091.3ms)
+Date: Wed, 07 Sep 2016 13:53:10 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf8f26ec130_243d3ffadc4f542c28132@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf8f26eb5f2_243d3ffadc4f542c28076";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf8f26eb5f2_243d3ffadc4f542c28076
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf8f26eb5f2_243d3ffadc4f542c28076
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  rtit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf8f26eb5f2_243d3ffadc4f542c28076--
+
+Redirected to http://localhost:3000/enquiries/14
+Completed 302 Found in 7117ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/enquiries/14" for ::1 at 2016-09-07 13:53:14 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mEnquiry Load (0.5ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 240ms (Views: 171.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 13:53:24 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 66ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-07 14:01:59 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 2994ms (Views: 2971.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-07 14:02:06 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (223.8ms)
+  Rendered enquiries/new.html.erb within layouts/application (235.0ms)
+Completed 200 OK in 320ms (Views: 287.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-07 14:02:15 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UII6wmafrdUkUt6YXUHeTXQVWlg18E00OePa7kWNNVtIP24ogNGt/BaqnTM84E2dftgUoDQT/ivTiliRO7xwjQ==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"teste", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (19.5ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "teste"], ["message", "test"], ["created_at", 2016-09-07 04:02:15 UTC], ["updated_at", 2016-09-07 04:02:15 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.6ms)
+EnquiryMailer#response: processed outbound mail in 305.2ms
+Sent mail to trit (3311.5ms)
+Date: Wed, 07 Sep 2016 14:02:16 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57cf9148921f0_24de3ff202823a3c157ad@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf91488be3d_24de3ff202823a3c156cf";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf91488be3d_24de3ff202823a3c156cf
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57cf91488be3d_24de3ff202823a3c156cf
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf91488be3d_24de3ff202823a3c156cf--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#received: processed outbound mail in 68.7ms
+Sent mail to tristan@tristansouthwell.com (3210.1ms)
+Date: Wed, 07 Sep 2016 14:02:19 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57cf914be9b2f_24de3ff202823a3c159a@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57cf914be90c3_24de3ff202823a3c15827";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57cf914be90c3_24de3ff202823a3c15827
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57cf914be90c3_24de3ff202823a3c15827
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  teste
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57cf914be90c3_24de3ff202823a3c15827--
+
+Redirected to http://localhost:3000/enquiries/15
+Completed 302 Found in 7326ms (ActiveRecord: 21.0ms)
+
+
+Started GET "/enquiries/15" for ::1 at 2016-09-07 14:02:23 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mEnquiry Load (0.4ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 107ms (Views: 68.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 14:02:25 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
