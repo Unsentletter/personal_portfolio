@@ -12015,3 +12015,1554 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 55ms (Views: 52.0ms | ActiveRecord: 0.0ms)
 
 
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-08 10:41:25 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 7140ms (Views: 7091.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:42:01 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2641ms (Views: 2638.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:42:13 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3194ms (Views: 3191.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:42:22 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2733ms (Views: 2730.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:42:40 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3248ms (Views: 3245.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:43:14 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3603ms (Views: 3601.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:43:37 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3361ms (Views: 3357.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:44:41 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (672.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (693.6ms)
+Completed 200 OK in 1366ms (Views: 1321.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:46:45 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (27.7ms)
+  Rendered enquiries/new.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 5216ms (Views: 5187.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:47:01 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 2840ms (Views: 2825.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:47:15 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (9.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 2814ms (Views: 2811.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:49:10 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (36.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 4788ms (Views: 4765.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:51:26 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (59.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 4603ms (Views: 4583.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:51:38 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (12.2ms)
+  Rendered enquiries/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:52:23 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (10.4ms)
+  Rendered enquiries/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 316ms (Views: 294.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:52:56 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (11.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 3024ms (Views: 3021.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:54:36 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (55.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (79.3ms)
+Completed 200 OK in 391ms (Views: 379.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 10:54:52 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MPSWGW6DuXAsTvjcg+OOHvK0cznJH9f0HygxMB3V+8woScLziM25WR62u3fiQh3O+Hk9wcj8ZOv1QbNPY+S+Gg==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (18.0ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-08 00:54:52 UTC], ["updated_at", 2016-09-08 00:54:52 UTC]]
+  [1m[35m (42.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.7ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 484.0ms
+Sent mail to trit (3574.4ms)
+Date: Thu, 08 Sep 2016 10:54:53 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57d0b6ddbdd52_26603fdd60c2cd24807b0@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0b6ddb82bc_26603fdd60c2cd2480640";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0b6ddb82bc_26603fdd60c2cd2480640
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0b6ddb82bc_26603fdd60c2cd2480640
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0b6ddb82bc_26603fdd60c2cd2480640--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#received: processed outbound mail in 72.7ms
+Sent mail to tristan@tristansouthwell.com (3283.6ms)
+Date: Thu, 08 Sep 2016 10:54:57 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57d0b6e163431_26603fdd60c2cd24809c@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0b6e16255c_26603fdd60c2cd24808f2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0b6e16255c_26603fdd60c2cd24808f2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57d0b6e16255c_26603fdd60c2cd24808f2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0b6e16255c_26603fdd60c2cd24808f2--
+
+Redirected to http://localhost:3000/enquiries/16
+Completed 302 Found in 8221ms (ActiveRecord: 61.3ms)
+
+
+Started GET "/enquiries/16" for ::1 at 2016-09-08 10:55:00 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mEnquiry Load (0.5ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 261ms (Views: 225.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/enquiries/16/edit" for ::1 at 2016-09-08 10:56:32 +1000
+Processing by EnquiriesController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering enquiries/edit.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (11.0ms)
+  Rendered enquiries/edit.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 193ms (Views: 187.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:56:39 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 84ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 10:56:50 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (12.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 98ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 10:57:04 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sRkZQ2RZxrbyY1v1pOkEPm9OMt25jDzFzH2kz53XLB+ppE2pghfGn8CbGF7FSJfuZYN8Jbhvj9omFCaw4+ZpyQ==", "enquiry"=>{"name"=>"tri", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (103.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "tri"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-08 00:57:04 UTC], ["updated_at", 2016-09-08 00:57:04 UTC]]
+  [1m[35m (331.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.8ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#response: processed outbound mail in 85.1ms
+Sent mail to tri (3164.2ms)
+Date: Thu, 08 Sep 2016 10:57:04 +1000
+From: tristan@tristansouthwell.com
+To: tri
+Message-ID: <57d0b760cd2ac_26603fdd60c2cd2481195@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0b760cc658_26603fdd60c2cd2481071";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0b760cc658_26603fdd60c2cd2481071
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0b760cc658_26603fdd60c2cd2481071
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi tri, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0b760cc658_26603fdd60c2cd2481071--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#received: processed outbound mail in 39.7ms
+Sent mail to tristan@tristansouthwell.com (3696.3ms)
+Date: Thu, 08 Sep 2016 10:57:08 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57d0b764b12e_26603fdd60c2cd2481341@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0b764a4e0_26603fdd60c2cd24812eb";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0b764a4e0_26603fdd60c2cd24812eb
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57d0b764a4e0_26603fdd60c2cd24812eb
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  tri
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0b764a4e0_26603fdd60c2cd24812eb--
+
+Redirected to http://localhost:3000/enquiries/17
+Completed 302 Found in 7428ms (ActiveRecord: 435.1ms)
+
+
+Started GET "/enquiries/17" for ::1 at 2016-09-08 10:57:11 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mEnquiry Load (0.2ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 213ms (Views: 210.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 10:57:23 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 122ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+ActionMailer::Base#mail: processed outbound mail in 243.0ms
+Sent mail to valid.recipient@domain.com (3292.5ms)
+Date: Thu, 08 Sep 2016 11:05:13 +1000
+From: test@example.co
+To: valid.recipient@domain.com
+Message-ID: <57d0b9498aed6_27473ffad943fa3044927@Tristans-MacBook-Pro.local.mail>
+Subject: Test
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Test
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-08 11:37:21 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (17.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 2563ms (Views: 2524.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 11:38:01 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (423.6ms)
+  Rendered enquiries/new.html.erb within layouts/application (459.4ms)
+Completed 200 OK in 883ms (Views: 794.1ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 11:38:11 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yIHjzXetCV8aD+mt5Od81cWWBOK1WAs+0CB75hHQuF/QPLcnkeMJdij3qgaFRu8Fz1tKGrS7uCE6SfmZb+H9iQ==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (18.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-08 01:38:11 UTC], ["updated_at", 2016-09-08 01:38:11 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.7ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#response: processed outbound mail in 924.4ms
+Sent mail to trit (3984.5ms)
+Date: Thu, 08 Sep 2016 11:38:13 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57d0c10519f2a_28033fdb29518ff8984e@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c1051758d_28033fdb29518ff8983f0";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c1051758d_28033fdb29518ff8983f0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0c1051758d_28033fdb29518ff8983f0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c1051758d_28033fdb29518ff8983f0--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#received: processed outbound mail in 61.6ms
+Sent mail to tristan@tristansouthwell.com (3291.1ms)
+Date: Thu, 08 Sep 2016 11:38:17 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57d0c109239d3_28033fdb29518ff898622@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c10922dfd_28033fdb29518ff8985d9";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c10922dfd_28033fdb29518ff8985d9
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57d0c10922dfd_28033fdb29518ff8985d9
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c10922dfd_28033fdb29518ff8985d9--
+
+Redirected to http://localhost:3000/enquiries/18
+Completed 302 Found in 9038ms (ActiveRecord: 20.0ms)
+
+
+Started GET "/enquiries/18" for ::1 at 2016-09-08 11:38:20 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mEnquiry Load (0.3ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 261ms (Views: 192.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 11:38:42 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 300ms (Views: 297.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 11:42:06 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 517ms (Views: 508.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 11:42:10 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (35.0ms)
+  Rendered enquiries/new.html.erb within layouts/application (61.6ms)
+Completed 200 OK in 249ms (Views: 236.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started POST "/enquiries" for ::1 at 2016-09-08 11:42:18 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pPBqpkXICq46xB2CcX7erjbw8+6scN4+YOg6eV1uHYa8TT5Mo4YKhwg8XikQ301+PD29Fq2TbSGKgbgGI19YUA==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-08 01:42:18 UTC], ["updated_at", 2016-09-08 01:42:18 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.9ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.8ms)
+EnquiryMailer#response: processed outbound mail in 63.9ms
+Sent mail to trit (3135.9ms)
+Date: Thu, 08 Sep 2016 11:42:18 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57d0c1fab144c_28033fdb295185f898824@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c1faafdca_28033fdb295185f898737";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c1faafdca_28033fdb295185f898737
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0c1faafdca_28033fdb295185f898737
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c1faafdca_28033fdb295185f898737--
+
+  Rendering enquiry_mailer/received.html.erb within layouts/mailer
+  Rendered enquiry_mailer/received.html.erb within layouts/mailer (0.9ms)
+  Rendering enquiry_mailer/received.text.erb within layouts/mailer
+  Rendered enquiry_mailer/received.text.erb within layouts/mailer (0.6ms)
+EnquiryMailer#received: processed outbound mail in 56.4ms
+Sent mail to tristan@tristansouthwell.com (3063.5ms)
+Date: Thu, 08 Sep 2016 11:42:21 +1000
+From: tristan@tristansouthwell.com
+To: tristan@tristansouthwell.com
+Message-ID: <57d0c1fde01d2_28033fdb295185f89908c@Tristans-MacBook-Pro.local.mail>
+Subject: An enquiry has been receieved
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c1fddf183_28033fdb295185f898961";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c1fddf183_28033fdb295185f898961
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#received
+
+, find me in app/views/enquiry_mailer/received.text.erb
+
+
+----==_mimepart_57d0c1fddf183_28033fdb295185f898961
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+<p>
+  <strong>Name:</strong>
+  trit
+</p>
+
+<p>
+  <strong>Email:</strong>
+  tristan.southwell@hotmail.com
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  test
+</p>
+
+<p>
+  <strong>Message:</strong>
+  test
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c1fddf183_28033fdb295185f898961--
+
+Redirected to http://localhost:3000/enquiries/19
+Completed 302 Found in 6374ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/enquiries/19" for ::1 at 2016-09-08 11:42:25 +1000
+Processing by EnquiriesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mEnquiry Load (1.6ms)[0m  [1m[34mSELECT  "enquiries".* FROM "enquiries" WHERE "enquiries"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering enquiries/show.html.erb within layouts/application
+  Rendered enquiries/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 482ms (Views: 470.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 11:42:27 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 65ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-08 12:02:49 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 2495ms (Views: 2473.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 12:03:01 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (309.9ms)
+  Rendered enquiries/new.html.erb within layouts/application (321.3ms)
+Completed 200 OK in 465ms (Views: 406.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 12:03:09 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SeswIJTFDmOJJX2c0PJhB3V3C9HKbebT3PSMKi0kqtpRVmTKcosOSrvdPjexU/LXf7pFKcuOVcw2nQ5VUxXvDA==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (18.8ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-08 02:03:09 UTC], ["updated_at", 2016-09-08 02:03:09 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.6ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#response: processed outbound mail in 308.3ms
+Sent mail to trit (4696.2ms)
+Date: Thu, 08 Sep 2016 12:03:10 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57d0c6de796b0_28a63ff6d850dbec644d0@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c6de76acc_28a63ff6d850dbec64325";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c6de76acc_28a63ff6d850dbec64325
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0c6de76acc_28a63ff6d850dbec64325
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c6de76acc_28a63ff6d850dbec64325--
+
+Completed 500 Internal Server Error in 5429ms (ActiveRecord: 20.4ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.1ms)
+Started POST "/enquiries" for ::1 at 2016-09-08 12:03:42 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mnqp1jymA1mauFk06b/BuH/0NYxh6zDmQBHOje+XBgCCx/082ugDcKhAGp+IHlJodTl7dGAIg/mqeEzykaZD1g==", "enquiry"=>{"name"=>"trit", "email"=>"tristan@tristansouthwell.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan@tristansouthwell.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-08 02:03:42 UTC], ["updated_at", 2016-09-08 02:03:42 UTC]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.4ms)
+EnquiryMailer#response: processed outbound mail in 57.8ms
+Sent mail to trit (4067.8ms)
+Date: Thu, 08 Sep 2016 12:03:42 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57d0c6fe8c2cf_28a63ff6d850c0306465d@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c6fe8b743_28a63ff6d850c030645f2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c6fe8b743_28a63ff6d850c030645f2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0c6fe8b743_28a63ff6d850c030645f2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c6fe8b743_28a63ff6d850c030645f2--
+
+Completed 500 Internal Server Error in 4134ms (ActiveRecord: 3.5ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (137.1ms)
+Started GET "/" for ::1 at 2016-09-08 12:05:21 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 471ms (Views: 437.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 12:05:24 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (63.5ms)
+  Rendered enquiries/new.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 174ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 12:05:31 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w2Z8jQvKZw28fZU66Lkz65yN2AYlD/ibJLCyeI40C2Pb2yhn7YRnJI6F1pGJGKA7lkCW/iTsS4TO2TAH8AVOtQ==", "enquiry"=>{"name"=>"trit", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (17.7ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "trit"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test"], ["created_at", 2016-09-08 02:05:31 UTC], ["updated_at", 2016-09-08 02:05:31 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 43.7ms
+Sent mail to trit (3907.5ms)
+Date: Thu, 08 Sep 2016 12:05:32 +1000
+From: tristan@tristansouthwell.com
+To: trit
+Message-ID: <57d0c76cab82_28a63ff6d850c03064821@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c76ca142_28a63ff6d850c03064774";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c76ca142_28a63ff6d850c03064774
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0c76ca142_28a63ff6d850c03064774
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi trit, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c76ca142_28a63ff6d850c03064774--
+
+Completed 500 Internal Server Error in 3974ms (ActiveRecord: 18.9ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.4ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/enquiries" for ::1 at 2016-09-08 12:12:10 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (23.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EnquiriesController#index as HTML
+  Rendering enquiries/index.html.erb within layouts/application
+  [1m[36mEnquiry Load (28.9ms)[0m  [1m[34mSELECT "enquiries".* FROM "enquiries"[0m
+  Rendered enquiries/index.html.erb within layouts/application (371.2ms)
+Completed 200 OK in 4683ms (Views: 4510.6ms | ActiveRecord: 29.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-08 12:12:22 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 230ms (Views: 226.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enquiries/new" for ::1 at 2016-09-08 12:12:25 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (232.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (254.5ms)
+Completed 200 OK in 313ms (Views: 309.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 12:12:56 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XaMDsgzScJPcx7p9I+6m7IH5ziQMMmN7CgufWyesSEtFHldY6pxwuu4/+dZCTzU8izSA3A3R0GTgYh0kWZ0NnQ==", "enquiry"=>{"name"=>"fewvfw", "email"=>"tristan.southwell@hotmail.com", "subject"=>"fdsf", "message"=>"hsfnv"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (18.6ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "fewvfw"], ["email", "tristan.southwell@hotmail.com"], ["subject", "fdsf"], ["message", "hsfnv"], ["created_at", 2016-09-08 02:12:56 UTC], ["updated_at", 2016-09-08 02:12:56 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (1.0ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.7ms)
+EnquiryMailer#response: processed outbound mail in 272.3ms
+Sent mail to fewvfw (3656.3ms)
+Date: Thu, 08 Sep 2016 12:12:56 +1000
+From: tristan@tristansouthwell.com
+To: fewvfw
+Message-ID: <57d0c928dc1b6_29343fd8f59083c4981d@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0c928da447_29343fd8f59083c4980c5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0c928da447_29343fd8f59083c4980c5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0c928da447_29343fd8f59083c4980c5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi fewvfw, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0c928da447_29343fd8f59083c4980c5--
+
+Completed 500 Internal Server Error in 4372ms (ActiveRecord: 20.0ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.9ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/enquiries/new" for ::1 at 2016-09-08 12:25:18 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (19.1ms)
+  Rendered enquiries/new.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 357ms (Views: 327.9ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 12:25:33 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xzcQFaYXpTopC8LN+Tm/PnP2UG1v5rt9n/+tzSD2jYjfikT/QFmlExvzgWaYmCzueTselW4FCGJ1li+yXsfIXg==", "enquiry"=>{"name"=>"Test", "email"=>"tristan.southwell@hotmail.com", "subject"=>"Test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (21.7ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Test"], ["email", "tristan.southwell@hotmail.com"], ["subject", "Test"], ["message", "test"], ["created_at", 2016-09-08 02:25:33 UTC], ["updated_at", 2016-09-08 02:25:33 UTC]]
+  [1m[35m (39.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.7ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#response: processed outbound mail in 65.4ms
+Sent mail to Test (3766.1ms)
+Date: Thu, 08 Sep 2016 12:25:34 +1000
+From: tristan@tristansouthwell.com
+To: Test
+Message-ID: <57d0cc1e55f3f_29343fd8f60cf080983b7@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0cc1e54aa7_29343fd8f60cf080982c7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0cc1e54aa7_29343fd8f60cf080982c7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0cc1e54aa7_29343fd8f60cf080982c7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi Test, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0cc1e54aa7_29343fd8f60cf080982c7--
+
+Completed 500 Internal Server Error in 4654ms (ActiveRecord: 61.6ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.6ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started POST "/enquiries" for ::1 at 2016-09-08 12:31:13 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xzcQFaYXpTopC8LN+Tm/PnP2UG1v5rt9n/+tzSD2jYjfikT/QFmlExvzgWaYmCzueTselW4FCGJ1li+yXsfIXg==", "enquiry"=>{"name"=>"Test", "email"=>"tristan.southwell@hotmail.com", "subject"=>"Test", "message"=>"test"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (16.9ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Test"], ["email", "tristan.southwell@hotmail.com"], ["subject", "Test"], ["message", "test"], ["created_at", 2016-09-08 02:31:14 UTC], ["updated_at", 2016-09-08 02:31:14 UTC]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (2.1ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.3ms)
+EnquiryMailer#response: processed outbound mail in 423.4ms
+Sent mail to Test (4199.5ms)
+Date: Thu, 08 Sep 2016 12:31:15 +1000
+From: tristan@tristansouthwell.com
+To: Test
+Message-ID: <57d0cd734d1e6_2a9d3ff0954236586375f@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0cd734936d_2a9d3ff0954236586361";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0cd734936d_2a9d3ff0954236586361
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0cd734936d_2a9d3ff0954236586361
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi Test, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0cd734936d_2a9d3ff0954236586361--
+
+Completed 500 Internal Server Error in 5156ms (ActiveRecord: 19.4ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.7ms)
+Started GET "/enquiries/new" for ::1 at 2016-09-08 12:31:23 +1000
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (165.8ms)
+  Rendered enquiries/new.html.erb within layouts/application (174.3ms)
+Completed 200 OK in 2955ms (Views: 2951.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 12:31:35 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DJYO0HOBIn5pJh1qQBdi+dhc18Ise8DTPtcKsUvjYCgUK1o6lc8iV1veXsEhtvEp0pGZOi2Yc8zUvojONdIl/g==", "enquiry"=>{"name"=>"test", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test22"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "test"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test22"], ["created_at", 2016-09-08 02:31:35 UTC], ["updated_at", 2016-09-08 02:31:35 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (1.5ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.5ms)
+EnquiryMailer#response: processed outbound mail in 77.0ms
+Sent mail to test (3629.7ms)
+Date: Thu, 08 Sep 2016 12:31:35 +1000
+From: tristan@tristansouthwell.com
+To: test
+Message-ID: <57d0cd876d508_2a9d3ff09542a8a4639fa@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0cd876bb32_2a9d3ff09542a8a4638d7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0cd876bb32_2a9d3ff09542a8a4638d7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0cd876bb32_2a9d3ff09542a8a4638d7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi test, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0cd876bb32_2a9d3ff09542a8a4638d7--
+
+Completed 500 Internal Server Error in 3716ms (ActiveRecord: 1.9ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.6ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/enquiries/new" for ::1 at 2016-09-08 12:42:53 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (10.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EnquiriesController#new as HTML
+  Rendering enquiries/new.html.erb within layouts/application
+  Rendered enquiries/_form.html.erb (247.3ms)
+  Rendered enquiries/new.html.erb within layouts/application (271.3ms)
+Completed 200 OK in 2594ms (Views: 2530.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/enquiries" for ::1 at 2016-09-08 12:43:05 +1000
+Processing by EnquiriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WZFNQHGI8DWsRGrWvMD5MjPgTLdUyHe7sEMJYSzucFtBLBmql8bwHJ68KX3dYWriOS0CT1UrxKRaKoseUt81jQ==", "enquiry"=>{"name"=>"test", "email"=>"tristan.southwell@hotmail.com", "subject"=>"test", "message"=>"test3\r\n"}, "commit"=>"Create Enquiry"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (21.5ms)[0m  [1m[32mINSERT INTO "enquiries" ("name", "email", "subject", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "test"], ["email", "tristan.southwell@hotmail.com"], ["subject", "test"], ["message", "test3\r\n"], ["created_at", 2016-09-08 02:43:05 UTC], ["updated_at", 2016-09-08 02:43:05 UTC]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  Rendering enquiry_mailer/response.html.erb within layouts/mailer
+  Rendered enquiry_mailer/response.html.erb within layouts/mailer (0.9ms)
+  Rendering enquiry_mailer/response.text.erb within layouts/mailer
+  Rendered enquiry_mailer/response.text.erb within layouts/mailer (0.6ms)
+EnquiryMailer#response: processed outbound mail in 392.6ms
+Sent mail to test (4137.0ms)
+Date: Thu, 08 Sep 2016 12:43:06 +1000
+From: tristan@tristansouthwell.com
+To: test
+Message-ID: <57d0d03a2aa74_2aec3ff8fd40bb005813@Tristans-MacBook-Pro.local.mail>
+Subject: Thanks for your enquiry
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57d0d03a27826_2aec3ff8fd40bb00576d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57d0d03a27826_2aec3ff8fd40bb00576d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Enquiry#response
+
+, find me in app/views/enquiry_mailer/response.text.erb
+
+
+----==_mimepart_57d0d03a27826_2aec3ff8fd40bb00576d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Enquiry#response</h1>
+
+<p>
+
+Hi test, thank you for your enquiry.<br>I will reply as soon as possible
+
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_57d0d03a27826_2aec3ff8fd40bb00576d--
+
+Completed 500 Internal Server Error in 5065ms (ActiveRecord: 23.5ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in domain settings.
+):
+  
+app/controllers/enquiries_controller.rb:31:in `block in create'
+app/controllers/enquiries_controller.rb:29:in `create'
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/Unsentletter/.rvm/gems/ruby-2.3.0@rails5/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.0ms)

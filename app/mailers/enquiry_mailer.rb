@@ -19,8 +19,6 @@ class EnquiryMailer < ApplicationMailer
   def response(enquiry)
     @enquiry = enquiry
 
-
     mail to: @enquiry.name, subject: 'Thanks for your enquiry'
-
   end
 end
