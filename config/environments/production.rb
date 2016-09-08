@@ -82,18 +82,18 @@ Rails.application.configure do
   end
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.default :charset => "utf-8"
-
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-     :port           => 587,
-     :address        => 'smtp.mailgun.org',
-     :user_name      => ENV['MAILGUN_USERNAME'],
-     :password       => ENV['MAILGUN_PASSWORD'],
-     :domain         => 'https://api.mailgun.net/v3/tristansouthwell.com', #eg: 'yourappname.herokuapp.com'
-     :authentication => :plain
-  }
+  # config.active_record.dump_schema_after_migration = false
+  # config.action_mailer.perform_deliveries = true
+  # config.action_mailer.raise_delivery_errors = false
+  # config.action_mailer.default :charset => "utf-8"
+  #
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #    :port           => 587,
+  #    :address        => 'smtp.mailgun.org',
+  #    :user_name      => ENV['MAILGUN_USERNAME'],
+  #    :password       => ENV['MAILGUN_PASSWORD'],
+  #    :domain         => 'https://api.mailgun.net/v3/tristansouthwell.com', #eg: 'yourappname.herokuapp.com'
+  #    :authentication => :plain
+  # }
 end

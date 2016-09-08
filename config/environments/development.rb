@@ -27,7 +27,7 @@ Rails.application.configure do
   end
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
 
@@ -54,15 +54,14 @@ Rails.application.configure do
 
 
   #setting up email
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default :charset => "utf-8"
+  # config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  # config.action_mailer.perform_deliveries = true
+  # config.action_mailer.default :charset => "utf-8"
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     address:              'smtp.mailgun.org',
     port:                 587,
-    domain:               'https://api.mailgun.net/v3/tristansouthwell.com',
+    domain:               'sandboxd655895d100242d4b0c4d5e552eeb213.mailgun.org',
     user_name:            ENV['MAILGUN_USERNAME'],
     password:             ENV['MAILGUN_PASSWORD'],
     authentication:       'plain',

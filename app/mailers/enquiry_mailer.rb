@@ -8,7 +8,7 @@ class EnquiryMailer < ApplicationMailer
   def received(enquiry)
     @enquiry = enquiry
 
-    mail to: "tristan@tristansouthwell.com", subject: "An enquiry has been receieved"
+    mail to: "anunsentletter@gmail.com", subject: "An enquiry has been received"
   end
 
   # Subject can be set in your I18n file at config/locales/en.yml
@@ -19,6 +19,6 @@ class EnquiryMailer < ApplicationMailer
   def response(enquiry)
     @enquiry = enquiry
 
-    mail to: @enquiry.name, subject: 'Thanks for your enquiry'
+    mail to: @enquiry.email, subject: 'Thanks for your enquiry'
   end
 end
