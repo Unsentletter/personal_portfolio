@@ -25,85 +25,85 @@ My sites audience is potential employers, and potential clients.  This site is a
 **Usability**
 
 *User Control and freedom*
-•	My form has an option to edit what the user submits allowing them to correct any mistakes they may have made when they initially submitted the form.
+*	My form has an option to edit what the user submits allowing them to correct any mistakes they may have made when they initially submitted the form.
 
 *Consistency and Standards*
-•	I used the vh & vw values to maintain consistency across browsers and devices.  Using these values and setting them at 100 means that the parts of my site that are wrapped in these values will scale when the screen is smaller or larger.  This means that, no matter what device my site is viewed on it will look largely the same and make it easy for the viewer to view, and find things they are looking for if they have previously visited my site on a different device.
+*	I used the vh & vw values to maintain consistency across browsers and devices.  Using these values and setting them at 100 means that the parts of my site that are wrapped in these values will scale when the screen is smaller or larger.  This means that, no matter what device my site is viewed on it will look largely the same and make it easy for the viewer to view, and find things they are looking for if they have previously visited my site on a different device.
 
 *Aesthetic and minimal design*
-•	Apart from the form, the site is a single page.  All the information is easily accessible.  My font and colours are maintained throughout the entire design, and where there is text I have kept it short and to the point.
-•	Due to the simplicity of my design, the required amount of CSS/HTML is minimal.  This means there is less chance of my site loading incorrectly, or having problems when a viewer is using it.
+*	Apart from the form, the site is a single page.  All the information is easily accessible.  My font and colours are maintained throughout the entire design, and where there is text I have kept it short and to the point.
+*	Due to the simplicity of my design, the required amount of CSS/HTML is minimal.  This means there is less chance of my site loading incorrectly, or having problems when a viewer is using it.
 
 
 **STYLE GUIDE**
 
-•	Primary Font - 'Montserrat',
-•	Secondary Font – ‘sans-serif’
-•	Large Title
-  o	h1  
-  o	1px shadow - #000
-  o	Colour – Black
-  o	Font Size – 8vw
-  o	Center Aligned
-•	Secondary Title
-  o	h2
-  o	Colour – Black
-  o	Font Size – 3vw
-  o	Center Aligned
-•	Parallax
-  o	Large Image
-    •	100vh, 100vw
-    •	Background Colour - #C2F1FB
-  o	Perspective – 1px
-  o	Background Colour - #FFFF
-•	Portfolio Title
-  o	h1
-  o	Colour – Black
-  o	Font Size – 5vw
-  o	Center Aligned
-•	Portfolio
-  o	Background Colour – White
-  o	Images – 100vw
-•	About Me
-  o	Background Colour - #C2F1FB
-  o	Height – 99vh, width 100%
-  o	Image
-    •	Width – 100%
-    •	Height – 100%
-    •	Padding – 0
-  o	Text
-    •	Title
-      •	h1
-      •	Colour – Black
-    •	Paragraph
-      •	p
-      •	Font Size – 20px
-      •	Line Height – 140%
-•	Footer
-  o	Background Colour – Black
-  o	Text Colour - #909AA0
-  o	Social Links
-    •	Height – 40px, Width – 40px
-    •	Padding (between each icon) – 50px
-    •	Display – Inline Block
-    •	Border Radius 50%
-    •	Static State - #909AA0
-    •	Animation
-    •	Linkedin Animation Colour - #0094BC
-    •	Github Animation Colour - #343434
-    •	Email Animation Colour - #909AA0
-    •	Animation Duration – 0.3s
-•	Media Query
-  o	<500px
-  o	Text Align – Centre
-  o	About Me Colour Section – 1250px
-•	Enquiry Form
-  o	Background Colour - #C2F1FB
-  o	Width – 600px
-  o	Aligned Center
-    •	position: absolute
-    •	top:50px
-    •	bottom: 0
-    •	left: 0
-    •	right: 0
-    •	margin: auto
+*	Primary Font - 'Montserrat',
+*	Secondary Font – ‘sans-serif’
+*	Large Title
+  *	h1  
+  *	1px shadow - #000
+  *	Colour – Black
+  *	Font Size – 8vw
+  *	Center Aligned
+*	Secondary Title
+  *	h2
+  *	Colour – Black
+  *	Font Size – 3vw
+  *	Center Aligned
+*	Parallax
+  *	Large Image
+    *	100vh, 100vw
+    *	Background Colour - #C2F1FB
+  *	Perspective – 1px
+  *	Background Colour - #FFFF
+*	Portfolio Title
+  *	h1
+  *	Colour – Black
+  *	Font Size – 5vw
+  *	Center Aligned
+*	Portfolio
+  *	Background Colour – White
+  *	Images – 100vw
+*	About Me
+  *	Background Colour - #C2F1FB
+  *	Height – 99vh, width 100%
+  *	Image
+    *	Width – 100%
+    *	Height – 100%
+    *	Padding – 0
+  *	Text
+    *	Title
+      *	h1
+      *	Colour – Black
+    *	Paragraph
+      *	p
+      *	Font Size – 20px
+      *	Line Height – 140%
+*	Footer
+  *	Background Colour – Black
+  *	Text Colour - #909AA0
+  *	Social Links
+    *	Height – 40px, Width – 40px
+    *	Padding (between each icon) – 50px
+    *	Display – Inline Block
+    *	Border Radius 50%
+    *	Static State - #909AA0
+    *	Animation
+    *	Linkedin Animation Colour - #0094BC
+    *	Github Animation Colour - #343434
+    *	Email Animation Colour - #909AA0
+    *	Animation Duration – 0.3s
+*	Media Query
+  *	<500px
+  *	Text Align – Centre
+  *	About Me Colour Section – 1250px
+*	Enquiry Form
+  *	Background Colour - #C2F1FB
+  *	Width – 600px
+  *	Aligned Center
+    *	position: absolute
+    *	top:50px
+    *	bottom: 0
+    *	left: 0
+    *	right: 0
+    *	margin: auto
