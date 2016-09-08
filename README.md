@@ -6,7 +6,7 @@ My sites audience is potential employers, and potential clients.  This site is a
 
 **Design Decisions**
 
-•	I wanted to keep my design simple.  I am always more drawn to sites that have a clean and minimalist design.return
+•	I wanted to keep my design simple.  I am always more drawn to sites that have a clean and minimalist design.  return
 •	One of the requirements of this project was that it show my personality.  As well as being simple, I wanted to show my love for the ocean.  To show that love I decided a simple photo of sunlight shining through the upper layers of the ocean for my landing page, and the light blue colour used both behind that (incase the photo doesn’t load), and the about me section lower down the page.
 •	The image on the landing page is set so it takes up the full screen of any devise.  I also used only my name, and a simple tag line to keep the first image as simple as possible.  My name and the tag line scale to the devise screen as well and remain on only two lines to maintain the look across devices.
 •	On the advice of Andres I added a 1px shadow to my name.  This resulted in me being beyond impressed.  It makes the words much sharper and look far more professional.
