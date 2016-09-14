@@ -25,6 +25,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 <!-- favicon link -->
     <%= favicon_link_tag %>
+    <%= analytics_init if GoogleAnalytics.valid_tracker? %>
   </head>
 
   <body>

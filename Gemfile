@@ -10,7 +10,7 @@ gem 'devise'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'font-awesome-sass', '~> 4.6.2'
 gem 'pg'
-
+gem 'google-analytics-rails', '1.1.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
