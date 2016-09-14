@@ -15328,3 +15328,21 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 373ms (Views: 338.0ms | ActiveRecord: 0.0ms)
 
 
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/Unsentletter/Desktop/apps/apps/personal_portfolio/config/environment.rb:5)
+Started GET "/" for ::1 at 2016-09-12 13:20:27 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for ::1 at 2016-09-12 13:20:28 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (21.9ms)
+  Rendered pages/home.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 8983ms (Views: 8941.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 9032ms (Views: 8984.4ms | ActiveRecord: 0.0ms)
+
+
